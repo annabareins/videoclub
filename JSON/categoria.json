@@ -1,0 +1,46 @@
+[
+    {
+        "acronim" : "ACC",
+        "nom" : "Accio"
+    },
+    {
+        "acronim" : "AVT",
+        "nom" : "Aventura"
+    },
+    {
+        "acronim" : "TRR",
+        "nom" : "Terror"
+    },
+    {
+        "acronim" : "FTS",
+        "nom" : "Fantasia"
+    },
+    {
+        "acronim" : "CMD",
+        "nom" : "Comedia"
+    },
+    {
+        "acronim" : "DRM",
+        "nom" : "Drama"
+    },
+    {
+        "acronim" : "MSC",
+        "nom" : "Musical"
+    },
+    {
+        "acronim" : "MST",
+        "nom" : "Misteri"
+    },
+    {
+        "acronim" : "RMC",
+        "nom" : "Romantica"
+    },
+    {
+        "acronim" : "CCF",
+        "nom" : "Ciencia Ficcio"
+    },
+    {
+        "acronim" : "THL",
+        "nom" : "Thriller"
+    }
+]

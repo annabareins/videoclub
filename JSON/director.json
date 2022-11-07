@@ -1,0 +1,34 @@
+[
+    {
+        "id" : 1,
+        "nom" : "Steven Spielberg"
+    },
+    {
+        "id" : 2,
+        "nom" : "Quentin Tarantino"
+    },
+    {
+        "id" : 3,
+        "nom" : "Pedro Almodovar"
+    },
+    {
+        "id" : 4,
+        "nom" : "Martin Scorsese"
+    },
+    {
+        "id" : 5,
+        "nom" : "Alex de la Iglesia"
+    },
+    {
+        "id" : 6,
+        "nom" : "Isabel Coixet"
+    },
+    {
+        "id" : 7,
+        "nom" : "Santiago Segura"
+    },
+    {
+        "id" : 8,
+        "nom" : "Juan Antonio Bayona"
+    }
+]
