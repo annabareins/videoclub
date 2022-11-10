@@ -3,12 +3,70 @@ body {
     color: #DED0C2 !important;
 }
 
-.main{
+.contenidor{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
     display: flex;
-    flex-direction: row;
 }
 
-.menu{
+.sidebar{
+    height: 100%;
+    background: #2E4053;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar ul{
+    padding: 0px !important;
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 12px !important;
+    text-align: center;
+}
+
+.sidebar ul li:hover{
+    background: #5D6D7E;
+    cursor: pointer;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #F7F9F9;
+    font-size: 17px;
+    font-family: sans-serif;
+    opacity: .7;
+}
+
+.sidebar ul li a i{
+    font-size: 50px;
+}
+
+.llista_pelicules{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.pelicula{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.pelicula img{
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.pelicula img:hover{
+    opacity: 30%;
+    transition-duration: 0.2s;
+    cursor: pointer;
 }

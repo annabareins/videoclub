@@ -1,46 +1,77 @@
 [
     {
+        "id" : 1,
         "acronim" : "ACC",
-        "nom" : "Accio"
+        "nom" : "Acció"
     },
     {
+        "id" : 2,
         "acronim" : "AVT",
         "nom" : "Aventura"
     },
     {
+        "id" : 3,
         "acronim" : "TRR",
         "nom" : "Terror"
     },
     {
+        "id" : 4,
         "acronim" : "FTS",
         "nom" : "Fantasia"
     },
     {
+        "id" : 5,
         "acronim" : "CMD",
-        "nom" : "Comedia"
+        "nom" : "Comèdia"
     },
     {
+        "id" : 6,
         "acronim" : "DRM",
         "nom" : "Drama"
     },
     {
+        "id" : 7,
         "acronim" : "MSC",
         "nom" : "Musical"
     },
     {
+        "id" : 8,
         "acronim" : "MST",
         "nom" : "Misteri"
     },
     {
+        "id" : 9,
         "acronim" : "RMC",
-        "nom" : "Romantica"
+        "nom" : "Romàntica"
     },
     {
+        "id" : 10,
         "acronim" : "CCF",
-        "nom" : "Ciencia Ficcio"
+        "nom" : "Ciencia Ficció"
     },
     {
+        "id" : 11,
         "acronim" : "THL",
         "nom" : "Thriller"
+    },
+    {
+        "id" : 12,
+        "acronim" : "FML",
+        "nom" : "Familiar"
+    },
+    {
+        "id" : 14,
+        "acronim" : "SPS",
+        "nom" : "Suspens"
+    },
+    {
+        "id" : 15,
+        "acronim" : "BGF",
+        "nom" : "Biografia"
+    },
+    {
+        "id" : 16,
+        "acronim" : "HST",
+        "nom" : "Història"
     }
 ]
