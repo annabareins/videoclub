@@ -1,77 +1,210 @@
-[
-    {
-        "id" : 1,
-        "acronim" : "ACC",
-        "nom" : "Acció"
-    },
-    {
-        "id" : 2,
-        "acronim" : "AVT",
-        "nom" : "Aventura"
-    },
-    {
-        "id" : 3,
-        "acronim" : "TRR",
-        "nom" : "Terror"
-    },
-    {
-        "id" : 4,
-        "acronim" : "FTS",
-        "nom" : "Fantasia"
-    },
-    {
-        "id" : 5,
-        "acronim" : "CMD",
-        "nom" : "Comèdia"
-    },
-    {
-        "id" : 6,
-        "acronim" : "DRM",
-        "nom" : "Drama"
-    },
-    {
-        "id" : 7,
-        "acronim" : "MSC",
-        "nom" : "Musical"
-    },
-    {
-        "id" : 8,
-        "acronim" : "MST",
-        "nom" : "Misteri"
-    },
-    {
-        "id" : 9,
-        "acronim" : "RMC",
-        "nom" : "Romàntica"
-    },
-    {
-        "id" : 10,
-        "acronim" : "CCF",
-        "nom" : "Ciencia Ficció"
-    },
-    {
-        "id" : 11,
-        "acronim" : "THL",
-        "nom" : "Thriller"
-    },
-    {
-        "id" : 12,
-        "acronim" : "FML",
-        "nom" : "Familiar"
-    },
-    {
-        "id" : 14,
-        "acronim" : "SPS",
-        "nom" : "Suspens"
-    },
-    {
-        "id" : 15,
-        "acronim" : "BGF",
-        "nom" : "Biografia"
-    },
-    {
-        "id" : 16,
-        "acronim" : "HST",
-        "nom" : "Història"
-    }
-]
+[{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7c6"
+  },
+  "acronim": "ACC",
+  "nom": "Accio",
+  "pelicules": [
+    "636e4427d6f369c6936a8a94",
+    "636e4427d6f369c6936a8a9a",
+    "636e4427d6f369c6936a8a9b",
+    "636e4427d6f369c6936a8aa0",
+    "636e4427d6f369c6936a8aa1",
+    "636e4427d6f369c6936a8aa8",
+    "636e4427d6f369c6936a8aa9",
+    "636e4427d6f369c6936a8aaa",
+    "636e4427d6f369c6936a8aab",
+    "636e4427d6f369c6936a8aab",
+    "636e4427d6f369c6936a8aae",
+    "636e4427d6f369c6936a8ab0"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7c7"
+  },
+  "acronim": "AVT",
+  "nom": "Aventura",
+  "pelicules": [
+    "636e4427d6f369c6936a8a92",
+    "636e4427d6f369c6936a8a94",
+    "636e4427d6f369c6936a8aa7",
+    "636e4427d6f369c6936a8aa8",
+    "636e4427d6f369c6936a8aa9",
+    "636e4427d6f369c6936a8aaa"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7c8"
+  },
+  "acronim": "TRR",
+  "nom": "Terror",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa6",
+    "636e4427d6f369c6936a8ab1"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7ca"
+  },
+  "acronim": "CMD",
+  "nom": "Comedia",
+  "pelicules": [
+    "636e4427d6f369c6936a8a94",
+    "636e4427d6f369c6936a8a95",
+    "636e4427d6f369c6936a8a99",
+    "636e4427d6f369c6936a8a9c",
+    "636e4427d6f369c6936a8a9d",
+    "636e4427d6f369c6936a8a9f",
+    "636e4427d6f369c6936a8aa3",
+    "636e4427d6f369c6936a8aa4",
+    "636e4427d6f369c6936a8aa5",
+    "636e4427d6f369c6936a8aae",
+    "636e4427d6f369c6936a8aaf",
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7cb"
+  },
+  "acronim": "DRM",
+  "nom": "Drama",
+  "pelicules": [
+    "636e4427d6f369c6936a8a93",
+    "636e4427d6f369c6936a8a95",
+    "636e4427d6f369c6936a8a96",
+    "636e4427d6f369c6936a8a97",
+    "636e4427d6f369c6936a8a98",
+    "636e4427d6f369c6936a8a99",
+    "636e4427d6f369c6936a8a9a",
+    "636e4427d6f369c6936a8a9c",
+    "636e4427d6f369c6936a8a9f",
+    "636e4427d6f369c6936a8aa0",
+    "636e4427d6f369c6936a8aa1",
+    "636e4427d6f369c6936a8aa2",
+    "636e4427d6f369c6936a8aa4",
+    "636e4427d6f369c6936a8aa5",
+    "636e4427d6f369c6936a8aa7",
+    "636e4427d6f369c6936a8aac",
+    "636e4427d6f369c6936a8aad",
+    "636e4427d6f369c6936a8ab0",
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7cc"
+  },
+  "acronim": "MSC",
+  "nom": "Musical",
+  "pelicules": [
+    "636e4427d6f369c6936a8a95",
+    "636e4427d6f369c6936a8a96",
+    "636e4427d6f369c6936a8aa3",
+    "636e4427d6f369c6936a8aa4",
+    "636e4427d6f369c6936a8aac",
+    "636e4427d6f369c6936a8aad"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7cd"
+  },
+  "acronim": "MST",
+  "nom": "Misteri",
+  "pelicules": [
+    "636e4427d6f369c6936a8a93",
+    "636e4427d6f369c6936a8aa6",
+    "636e4427d6f369c6936a8ab1"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7ce"
+  },
+  "acronim": "RMC",
+  "nom": "Romantica",
+  "pelicules": [
+    "636e4427d6f369c6936a8a93",
+    "636e4427d6f369c6936a8a99",
+    "636e4427d6f369c6936a8a9c",
+    "636e4427d6f369c6936a8a9d",
+    "636e4427d6f369c6936a8a9f",
+    "636e4427d6f369c6936a8aa0",
+    "636e4427d6f369c6936a8aa3",
+    "636e4427d6f369c6936a8aac",
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "6367c366ad77032663fec7cf"
+  },
+  "acronim": "CCF",
+  "nom": "Ciencia Ficcio",
+  "pelicules": [
+    "636e4427d6f369c6936a8a92",
+    "636e4427d6f369c6936a8aa8",
+    "636e4427d6f369c6936a8aaa",
+    "636e4427d6f369c6936a8aab"
+  ]
+},{
+  "_id": {
+    "$oid": "636f8fc27ce5c77256e9cc11"
+  },
+  "acronim": "FAM",
+  "nom": "Familiar",
+  "pelicules": [
+    "636e4427d6f369c6936a8a92",
+    "636e4427d6f369c6936a8aa5"
+  ]
+},{
+  "_id": {
+    "$oid": "636f8fc27ce5c77256e9cc12"
+  },
+  "acronim": "SUS",
+  "nom": "Suspens",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9b",
+    "636e4427d6f369c6936a8a9e",
+    "636e4427d6f369c6936a8aa2",
+    "636e4427d6f369c6936a8aa6",
+    "636e4427d6f369c6936a8ab0",
+    "636e4427d6f369c6936a8ab1"
+  ]
+},{
+  "_id": {
+    "$oid": "636f8fc27ce5c77256e9cc13"
+  },
+  "acronim": "BIO",
+  "nom": "Biografía",
+  "pelicules": [
+    "636e4427d6f369c6936a8a97",
+    "636e4427d6f369c6936a8a98",
+    "636e4427d6f369c6936a8aa2",
+    "636e4427d6f369c6936a8aa9",
+    "636e4427d6f369c6936a8aad",
+    "636e4427d6f369c6936a8aaf"
+  ]
+},{
+  "_id": {
+    "$oid": "636f8fc27ce5c77256e9cc15"
+  },
+  "acronim": "CRI",
+  "nom": "Criminal",
+  "pelicules": [
+    "636e4427d6f369c6936a8a96",
+    "636e4427d6f369c6936a8a98",
+    "636e4427d6f369c6936a8a9a",
+    "636e4427d6f369c6936a8a9b",
+    "636e4427d6f369c6936a8a9e",
+    "636e4427d6f369c6936a8aa1",
+    "636e4427d6f369c6936a8aae",
+    "636e4427d6f369c6936a8aaf"
+  ]
+},{
+  "_id": {
+    "$oid": "636f8fc27ce5c77256e9cc16"
+  },
+  "acronim": "HIS",
+  "nom": "Historia",
+  "pelicules": [
+    "636e4427d6f369c6936a8a97",
+    "636e4427d6f369c6936a8aa7"
+  ]
+}]
