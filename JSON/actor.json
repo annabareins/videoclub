@@ -1,167 +1,332 @@
-[
-    {
-        "nom" : "Henry Thomas",
-        "imatge" : "https://static.wikia.nocookie.net/doblaje/images/2/2c/Henry_Thomas_2019.jpg/revision/latest?cb=20200306055057&path-prefix=es",
-        "pelicules" : ["636e4427d6f369c6936a8a92"]
-    },
-    {
-        "nom" : "Amanda Seyfried",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Amanda_Seyfried_2019_by_Glenn_Francis.jpg/1200px-Amanda_Seyfried_2019_by_Glenn_Francis.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a93","636e4427d6f369c6936a8aa3","636e4427d6f369c6936a8aa4"]
-    },
-    {
-        "nom" : "Channing Tatum",
-        "imatge" : "https://es.web.img3.acsta.net/pictures/16/02/09/10/01/017868.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a93","636e4427d6f369c6936a8ab0"]
-    },
-    {
-        "nom" : "Drew Barrymore",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/d/d9/Drew_Barrymore_Berlin_2014.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a92","636e4427d6f369c6936a8a94"]
-    },
-    {
-        "nom" : "Cameron Diaz",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cameron_Diaz_WE_2012_Shankbone_4.JPG/800px-Cameron_Diaz_WE_2012_Shankbone_4.JPG",
-        "pelicules" : ["636e4427d6f369c6936a8a94","636e4427d6f369c6936a8a99","636e4427d6f369c6936a8aa5"]
-    },
-    {
-        "nom" : "Lucy Liu",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lucy_Liu_Cannes_2008.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a94","636e4427d6f369c6936a8a9a","636e4427d6f369c6936a8a9b"]
-    },
-    {
-        "nom" : "Julia Roberts",
-        "imatge" : "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/julia-roberts-lors-du-festival-de-cannes-le-19-mai-2022-news-photo-1662529266.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a99","636e4427d6f369c6936a8a9c","636e4427d6f369c6936a8a9d","636e4427d6f369c6936a8a9e"]
-    },
-    {
-        "nom" : "Brad Pitt",
-        "imatge" : "https://es.web.img3.acsta.net/pictures/19/05/22/10/42/3773139.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a9e"]
-    },
-    {
-        "nom" : "Hugh Grant",
-        "imatge" : "https://media.revistavanityfair.es/photos/60e8601506a9cde9aea6d6f7/master/w_1600%2Cc_limit/222727.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a9c","636e4427d6f369c6936a8a9f"]
-    },
-    {
-        "nom" : "Richard Gere",
-        "imatge" : "https://es.web.img3.acsta.net/c_310_420/pictures/15/10/21/11/50/088880.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a9d"]
-    },
-    {
-        "nom" : "Ansel Elgort",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ansel_Elgort_%2835875410045%29.jpg/800px-Ansel_Elgort_%2835875410045%29.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a96","636e4427d6f369c6936a8aa0","636e4427d6f369c6936a8aa1","636e4427d6f369c6936a8aa2"]
-    },
-    {
-        "nom" : "Emma Roberts",
-        "imatge" : "https://static.wikia.nocookie.net/americanhorrorstory/images/9/98/EmmaRoberts2018.jpg/revision/latest?cb=20180923084116&path-prefix=es",
-        "pelicules" : ["636e4427d6f369c6936a8aa2"]
-    },
-    {
-        "nom" : "Jeremy Irvine",
-        "imatge" : "https://static.wikia.nocookie.net/americanhorrorstory/images/9/98/EmmaRoberts2018.jpg/revision/latest?cb=20180923084116&path-prefix=es",
-        "pelicules" : ["636e4427d6f369c6936a8aa3"]
-    },
-    {
-        "nom" : "Lily James",
-        "imatge" : "https://es.web.img3.acsta.net/pictures/210/432/21043227_20130923203108321.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa1","636e4427d6f369c6936a8aa3"]
-    },
-    {
-        "nom" : "Jamie Foxx",
-        "imatge" : "https://es.web.img3.acsta.net/pictures/210/432/21043227_20130923203108321.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa1","636e4427d6f369c6936a8aa5","636e4427d6f369c6936a8ab0"]
-    },
-    {
-        "nom" : "Rose Byrne",
-        "imatge" : "https://images.mubicdn.net/images/cast_member/16198/cache-4103-1611519826/image-w856.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa5","636e4427d6f369c6936a8aa6"]
-    },
-    {
-        "nom" : "Meryl Streep",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/4/46/Meryl_Streep_December_2018.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa3","636e4427d6f369c6936a8aa4"]
-    },
-    {
-        "nom" : "Tom Holland",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/1200px-Tom_Holland_by_Gage_Skidmore.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa7","636e4427d6f369c6936a8aa8"]
-    },
-    {
-        "nom" : "Zendaya",
-        "imatge" : "https://media.vogue.mx/photos/631fc47e380fc1c50c102d5f/master/pass/zendaya-actriz-emmys-2022.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa8","636e4427d6f369c6936a8aa9"]
-    },
-    {
-        "nom" : "Chris Hemsworth",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa9","636e4427d6f369c6936a8aaa","636e4427d6f369c6936a8aab"]
-    },
-    {
-        "nom" : "Samuel L.Jackson",
-        "imatge" : "https://es.web.img2.acsta.net/pictures/15/07/27/12/24/354255.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa8","636e4427d6f369c6936a8aaa","636e4427d6f369c6936a8aab"]
-    },
-    {
-        "nom" : "Ewan McGregor",
-        "imatge" : "https://es.web.img2.acsta.net/pictures/18/01/08/13/51/4841442.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa7","636e4427d6f369c6936a8aac"]
-    },
-    {
-        "nom" : "Nicole Kildman",
-        "imatge" : "https://www.hola.com/imagenes/biografias/nicole-kidman/86289-nicolekidman-12.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aac"]
-    },
-    {
-        "nom" : "Scarlett Johansson",
-        "imatge" : "https://media.vogue.mx/photos/5e1e3181964d3e000833efae/3:4/w_1998,h_2664,c_limit/scarlett-johansson-peinado-raya-en-medio.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa8","636e4427d6f369c6936a8aab"]
-    },
-    {
-        "nom" : "Zac Efron",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Zac_Efron%2C_Eva_Rinaldi_Photography_%2810%29_%2834732926735%29.jpg/800px-Zac_Efron%2C_Eva_Rinaldi_Photography_%2810%29_%2834732926735%29.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aad","636e4427d6f369c6936a8aae"]
-    },
-    {
-        "nom" : "Dwayne Johnson",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dwayne_Johnson_2014_%28cropped%29.jpg/640px-Dwayne_Johnson_2014_%28cropped%29.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aae"]
-    },
-    {
-        "nom" : "Jon Favreau",
-        "imatge" : "https://es.web.img2.acsta.net/pictures/15/09/18/12/27/315343.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aab","636e4427d6f369c6936a8aaf"]
-    },
-    {
-        "nom" : "Joey King",
-        "imatge" : "https://fr.web.img3.acsta.net/pictures/22/07/18/12/56/2791435.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8ab0","636e4427d6f369c6936a8ab1","636e4427d6f369c6936a8ab2"]
-    },
-    {
-        "nom" : "Patrick Wilson",
-        "imatge" : "https://m.media-amazon.com/images/M/MV5BMTkzNzcxNzcxMF5BMl5BanBnXkFtZTgwOTM1ODUzMTE@._V1_UY1200_CR96,0,630,1200_AL_.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8aa6","636e4427d6f369c6936a8ab1"]
-    },
-    {
-        "nom" : "Emma Stone",
-        "imatge" : "https://upload.wikimedia.org/wikipedia/commons/3/31/Emma_Stone_at_Maniac_UK_premiere_%28cropped%29.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8ab2"]
-    },
-    {
-        "nom" : "Ryan Gosling",
-        "imatge" : "https://m.media-amazon.com/images/M/MV5BMTQzMjkwNTQ2OF5BMl5BanBnXkFtZTgwNTQ4MTQ4MTE@._V1_.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8ab2"]
-    },
-    {
-        "nom" : "Leonardo DiCaprio",
-        "imatge" : "https://los40es00.epimg.net/los40/imagenes/2022/09/14/love40/1663168288_258184_1663168656_miniatura_normal.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a98","636e4427d6f369c6936a8aaf"]
-    },
-    {
-        "nom" : "Tom Hanks",
-        "imatge" : "https://es.web.img2.acsta.net/pictures/16/04/26/10/00/472541.jpg",
-        "pelicules" : ["636e4427d6f369c6936a8a98"]
-    }
-]
+[{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8abe"
+  },
+  "nom": "Henry Thomas",
+  "imatge": "https://static.wikia.nocookie.net/doblaje/images/2/2c/Henry_Thomas_2019.jpg/revision/latest?cb=20200306055057&path-prefix=es",
+  "pelicules": [
+    "636e4427d6f369c6936a8a92"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8abf"
+  },
+  "nom": "Amanda Seyfried",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Amanda_Seyfried_2019_by_Glenn_Francis.jpg/1200px-Amanda_Seyfried_2019_by_Glenn_Francis.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a93",
+    "636e4427d6f369c6936a8aa3",
+    "636e4427d6f369c6936a8aa4"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac0"
+  },
+  "nom": "Channing Tatum",
+  "imatge": "https://es.web.img3.acsta.net/pictures/16/02/09/10/01/017868.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a93",
+    "636e4427d6f369c6936a8ab0"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac1"
+  },
+  "nom": "Drew Barrymore",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Drew_Barrymore_Berlin_2014.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a92",
+    "636e4427d6f369c6936a8a94"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac2"
+  },
+  "nom": "Cameron Diaz",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Cameron_Diaz_WE_2012_Shankbone_4.JPG/800px-Cameron_Diaz_WE_2012_Shankbone_4.JPG",
+  "pelicules": [
+    "636e4427d6f369c6936a8a94",
+    "636e4427d6f369c6936a8a99",
+    "636e4427d6f369c6936a8aa5"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac3"
+  },
+  "nom": "Lucy Liu",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Lucy_Liu_Cannes_2008.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a94",
+    "636e4427d6f369c6936a8a9a",
+    "636e4427d6f369c6936a8a9b"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac4"
+  },
+  "nom": "Julia Roberts",
+  "imatge": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/julia-roberts-lors-du-festival-de-cannes-le-19-mai-2022-news-photo-1662529266.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a99",
+    "636e4427d6f369c6936a8a9c",
+    "636e4427d6f369c6936a8a9d",
+    "636e4427d6f369c6936a8a9e"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac5"
+  },
+  "nom": "Brad Pitt",
+  "imatge": "https://es.web.img3.acsta.net/pictures/19/05/22/10/42/3773139.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9e"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac6"
+  },
+  "nom": "Hugh Grant",
+  "imatge": "https://media.revistavanityfair.es/photos/60e8601506a9cde9aea6d6f7/master/w_1600%2Cc_limit/222727.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9c",
+    "636e4427d6f369c6936a8a9f"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac7"
+  },
+  "nom": "Richard Gere",
+  "imatge": "https://es.web.img3.acsta.net/c_310_420/pictures/15/10/21/11/50/088880.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9d"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac8"
+  },
+  "nom": "Ansel Elgort",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ansel_Elgort_%2835875410045%29.jpg/800px-Ansel_Elgort_%2835875410045%29.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a96",
+    "636e4427d6f369c6936a8aa0",
+    "636e4427d6f369c6936a8aa1",
+    "636e4427d6f369c6936a8aa2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ac9"
+  },
+  "nom": "Emma Roberts",
+  "imatge": "https://static.wikia.nocookie.net/americanhorrorstory/images/9/98/EmmaRoberts2018.jpg/revision/latest?cb=20180923084116&path-prefix=es",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8aca"
+  },
+  "nom": "Jeremy Irvine",
+  "imatge": "https://static.wikia.nocookie.net/americanhorrorstory/images/9/98/EmmaRoberts2018.jpg/revision/latest?cb=20180923084116&path-prefix=es",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa3"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8acb"
+  },
+  "nom": "Lily James",
+  "imatge": "https://es.web.img3.acsta.net/pictures/210/432/21043227_20130923203108321.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa1",
+    "636e4427d6f369c6936a8aa3"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8acc"
+  },
+  "nom": "Jamie Foxx",
+  "imatge": "https://es.web.img3.acsta.net/pictures/210/432/21043227_20130923203108321.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa1",
+    "636e4427d6f369c6936a8aa5",
+    "636e4427d6f369c6936a8ab0"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8acd"
+  },
+  "nom": "Rose Byrne",
+  "imatge": "https://images.mubicdn.net/images/cast_member/16198/cache-4103-1611519826/image-w856.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa5",
+    "636e4427d6f369c6936a8aa6"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ace"
+  },
+  "nom": "Meryl Streep",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/4/46/Meryl_Streep_December_2018.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa3",
+    "636e4427d6f369c6936a8aa4"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8acf"
+  },
+  "nom": "Tom Holland",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/1200px-Tom_Holland_by_Gage_Skidmore.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa7",
+    "636e4427d6f369c6936a8aa8"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad0"
+  },
+  "nom": "Zendaya",
+  "imatge": "https://media.vogue.mx/photos/631fc47e380fc1c50c102d5f/master/pass/zendaya-actriz-emmys-2022.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa8",
+    "636e4427d6f369c6936a8aa9"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad1"
+  },
+  "nom": "Chris Hemsworth",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa9",
+    "636e4427d6f369c6936a8aaa",
+    "636e4427d6f369c6936a8aab"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad2"
+  },
+  "nom": "Samuel L.Jackson",
+  "imatge": "https://es.web.img2.acsta.net/pictures/15/07/27/12/24/354255.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa8",
+    "636e4427d6f369c6936a8aaa",
+    "636e4427d6f369c6936a8aab"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad3"
+  },
+  "nom": "Ewan McGregor",
+  "imatge": "https://es.web.img2.acsta.net/pictures/18/01/08/13/51/4841442.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa7",
+    "636e4427d6f369c6936a8aac"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad4"
+  },
+  "nom": "Nicole Kildman",
+  "imatge": "https://www.hola.com/imagenes/biografias/nicole-kidman/86289-nicolekidman-12.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aac"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad5"
+  },
+  "nom": "Scarlett Johansson",
+  "imatge": "https://media.vogue.mx/photos/5e1e3181964d3e000833efae/3:4/w_1998,h_2664,c_limit/scarlett-johansson-peinado-raya-en-medio.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa8",
+    "636e4427d6f369c6936a8aab"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad6"
+  },
+  "nom": "Zac Efron",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Zac_Efron%2C_Eva_Rinaldi_Photography_%2810%29_%2834732926735%29.jpg/800px-Zac_Efron%2C_Eva_Rinaldi_Photography_%2810%29_%2834732926735%29.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aad",
+    "636e4427d6f369c6936a8aae"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad7"
+  },
+  "nom": "Dwayne Johnson",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Dwayne_Johnson_2014_%28cropped%29.jpg/640px-Dwayne_Johnson_2014_%28cropped%29.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aae"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad8"
+  },
+  "nom": "Jon Favreau",
+  "imatge": "https://es.web.img2.acsta.net/pictures/15/09/18/12/27/315343.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aab",
+    "636e4427d6f369c6936a8aaf"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ad9"
+  },
+  "nom": "Joey King",
+  "imatge": "https://fr.web.img3.acsta.net/pictures/22/07/18/12/56/2791435.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8ab0",
+    "636e4427d6f369c6936a8ab1",
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ada"
+  },
+  "nom": "Patrick Wilson",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BMTkzNzcxNzcxMF5BMl5BanBnXkFtZTgwOTM1ODUzMTE@._V1_UY1200_CR96,0,630,1200_AL_.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa6",
+    "636e4427d6f369c6936a8ab1"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8adb"
+  },
+  "nom": "Emma Stone",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/3/31/Emma_Stone_at_Maniac_UK_premiere_%28cropped%29.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8adc"
+  },
+  "nom": "Ryan Gosling",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BMTQzMjkwNTQ2OF5BMl5BanBnXkFtZTgwNTQ4MTQ4MTE@._V1_.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8add"
+  },
+  "nom": "Leonardo DiCaprio",
+  "imatge": "https://los40es00.epimg.net/los40/imagenes/2022/09/14/love40/1663168288_258184_1663168656_miniatura_normal.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a98",
+    "636e4427d6f369c6936a8aaf"
+  ]
+},{
+  "_id": {
+    "$oid": "636e6760d6f369c6936a8ade"
+  },
+  "nom": "Tom Hanks",
+  "imatge": "https://es.web.img2.acsta.net/pictures/16/04/26/10/00/472541.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a98"
+  ]
+}]
