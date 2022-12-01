@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "637f7c7f5786c5b209f1992a"
+  },
+  "nom": "Anna Barea Colomer",
+  "dni": "68116811A",
+  "penalitzacio": 0,
+  "reserves": [
+    "6387c6de262c221cf30fb143"
+  ]
+},{
+  "_id": {
+    "$oid": "637f7c7f5786c5b209f1992b"
+  },
+  "nom": "Jordi Pagès Bonillo",
+  "dni": "25102510J",
+  "penalitzacio": 0,
+  "reserves": []
+},{
+  "_id": {
+    "$oid": "637f7c7f5786c5b209f1992c"
+  },
+  "nom": "Agustí Matamoros Caparrós",
+  "dni": "201021010A",
+  "penalitzacio": 0,
+  "reserves": []
+},{
+  "_id": {
+    "$oid": "637f7c7f5786c5b209f1992d"
+  },
+  "nom": "Daniel Prunell Barceló",
+  "dni": "12312312D",
+  "penalitzacio": 0,
+  "reserves": []
+}]
