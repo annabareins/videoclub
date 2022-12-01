@@ -1,0 +1,34 @@
+[
+	{
+	"dni": "12436512A",
+	"nom": "Jordi",
+	"cognoms": "Pages Bonillo",
+	"telefon": 541265321,
+	"e-mail": "jordi.pages@gmail.com",
+	"dataNaixement": "2001-10-25"
+	},
+	{
+	"dni": "56529834F",
+	"nom": "Anna",
+	"cognoms": "Barea Colomer",
+	"telefon": 987456321,
+	"e-mail": "bareins@gmail.com",
+	"dataNaixement": "2001-03-11"
+	},
+	{
+	"dni": "87564598X",
+	"nom": "Agustí",
+	"cognoms": "Matamoros Caparrós",
+	"telefon": 185416974,
+	"e-mail": "agus@gmail.com",
+	"dataNaixement": "2000-10-20"
+	},
+	{
+	"dni": "897513642D",
+	"nom": "Daniel",
+	"cognoms": "Prunell Barceló",
+	"telefon": 852471936,
+	"e-mail": "pruni@gmail.com",
+	"dataNaixement": "1998-04-24"
+	}
+]
