@@ -29,14 +29,163 @@ if($categoriesdb->count()>0){
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-    <meta charset="UTF-8">
-    <title>Videoclap!</title>
-    <link rel="stylesheet" href="estils.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <title>Pel·lícules</title>
+    <?php require_once("head.php"); ?>
 </head>
+<style>
+    .llista_pelicules{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        margin-top: 120px;
+        width: 100%;
+        float: left;
+        align-content: flex-start;
+        padding: 20px 3%;
+    }
+
+    .pelicula{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 20px;
+        width: 240px;
+        height: 390px;
+    }
+
+    .pelicula img{
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+
+    .pelicula img:hover{
+        opacity: 30%;
+        transition-duration: 0.2s;
+        cursor: pointer;
+    }
+
+    .header {
+        width: 100%;
+        float: left;
+        height: 120px;
+        background: #2E4053;
+        box-shadow: 6px 9px 20px 0px #000;
+        position: fixed;
+        top: 0;
+        margin-left: 77px;
+    }
+    .header .logo {
+        float: left;
+        width: 15%;
+        height: 100%;
+    }
+
+    .header .logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        mix-blend-mode: luminosity;
+    }
+    .header .filters {
+        width: 85%;
+        float: left;
+        margin-top: 30px;
+    }
+
+    .header .filters ul li{
+        width: 30%;
+        float: left;
+        list-style-type: none;
+        text-align: center;
+    }
+    .header .filters ul li:nth-child(3), .header .filters ul li:nth-child(4){
+        width: 18%;
+        text-align: left;
+    }
+    @media (max-width: 1470px) {
+        .header .filters ul li{
+            width: 25%;
+            text-align: left;
+            padding-left: 15px;
+        }
+    }
+    .header .filters ul li:last-child{
+        padding-right: 15px;
+    }
+    .header .filters label{
+        font-size: 20px;
+    }
+
+    .header .filters  input[type=submit] {
+        background-color: #27688b;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: -6px;
+    }
+    .header .filters input#val {
+        height: 11px;
+    }
+
+    .header .filters input#any {
+        background-color: #27688b99;
+        color: #DED0C2;
+    }
+
+    .header .filters input#any::placeholder {
+        color: #DED0C2;
+    }
+    .header .filters .desp_cat {
+        width: 300px;
+        background: #2E4053;
+        padding: 15px 20px;
+        display: none;
+    }
+    .header .filters .desp_cat div{
+        margin-left: 15px;
+    }
+    .header .filters ul li:nth-child(3):hover .desp_cat {
+        display: block;
+    }
+
+    .loader {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: none;
+        border-top: 6px solid #FFF;
+        border-right: 2px solid transparent;
+        box-sizing: border-box;
+        animation: rotation 1s linear infinite;
+        position: fixed;
+        left: 50%;
+        top: 200px;
+    }
+    .loader::after {
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border-left: 6px solid #27688b;
+        border-bottom: 2px solid transparent;
+        animation: rotation 0.5s linear infinite reverse;
+    }
+    @keyframes rotation {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
 <body>
 <div class="contenidor">
     <?php require("menu.php"); ?>
@@ -79,7 +228,7 @@ if($categoriesdb->count()>0){
     <div class="llista_pelicules">
         <?php foreach ($pelicules as $p){?>
             <div class="pelicula" data-id="<?php echo $p[0];?>">
-                <img src="<?php echo $p[2]; ?>" height="100%" width="180px">
+                <img src="<?php echo $p[2]; ?>" height="100%" width="200px">
                 <div><?php if (strlen($p[1])>22) {echo substr($p[1], 0, 20)."...";} else{echo $p[1];}?></div>
                 <div><?php echo $p[5]; ?> - <?php echo $p[3]; ?> <i class="fa fa-star" aria-hidden="true" style="color: #F1C40F"></i></div>
             </div>

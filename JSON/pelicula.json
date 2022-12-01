@@ -18,6 +18,10 @@
     "actors": [
       "636e6760d6f369c6936a8abe",
       "636e6760d6f369c6936a8ac1"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f50f9",
+      "638206fbf35cd07e1a0f50fa"
     ]
   },{
     "_id": {
@@ -39,6 +43,10 @@
     "actors": [
       "636e6760d6f369c6936a8abf",
       "636e6760d6f369c6936a8ac0"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f50fb",
+      "638206fbf35cd07e1a0f50fc"
     ]
   },{
     "_id": {
@@ -61,6 +69,9 @@
       "636e6760d6f369c6936a8ac1",
       "636e6760d6f369c6936a8ac2",
       "636e6760d6f369c6936a8ac3"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f50fd"
     ]
   },{
     "_id": {
@@ -81,6 +92,10 @@
     ],
     "actors": [
       "636e6760d6f369c6936a8ac0"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f50fe",
+      "638206fbf35cd07e1a0f50ff"
     ]
   },{
     "_id": {
@@ -101,6 +116,11 @@
     ],
     "actors": [
       "636e6760d6f369c6936a8ac8"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f5100",
+      "638206fbf35cd07e1a0f5101",
+      "638206fbf35cd07e1a0f5102"
     ]
   },{
     "_id": {
@@ -119,7 +139,10 @@
       "636f8fc27ce5c77256e9cc13",
       "636f8fc27ce5c77256e9cc16"
     ],
-    "actors": []
+    "actors": [],
+    "copies":[
+      "638206fbf35cd07e1a0f5103"
+    ]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8a98"
@@ -142,6 +165,10 @@
       "636e6760d6f369c6936a8ade",
       "636e6760d6f369c6936a8add",
       "636e6760d6f369c6936a8ade"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f5104",
+      "638206fbf35cd07e1a0f5105"
     ]
   },{
     "_id": {
@@ -163,6 +190,9 @@
     "actors": [
       "636e6760d6f369c6936a8ac2",
       "636e6760d6f369c6936a8ac4"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f5106"
     ]
   },{
     "_id": {
@@ -183,6 +213,9 @@
     ],
     "actors": [
       "636e6760d6f369c6936a8ac3"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f5107"
     ]
   },{
     "_id": {
@@ -203,6 +236,9 @@
     ],
     "actors": [
       "636e6760d6f369c6936a8ac3"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f5108"
     ]
   },{
     "_id": {
@@ -224,6 +260,11 @@
     "actors": [
       "636e6760d6f369c6936a8ac4",
       "636e6760d6f369c6936a8ac6"
+    ],
+    "copies":[
+      "638206fbf35cd07e1a0f5109",
+      "638206fbf35cd07e1a0f510a",
+      "638206fbf35cd07e1a0f510b"
     ]
   },{
     "_id": {
@@ -244,7 +285,8 @@
     "actors": [
       "636e6760d6f369c6936a8ac4",
       "636e6760d6f369c6936a8ac7"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8a9e"
@@ -264,7 +306,8 @@
     "actors": [
       "636e6760d6f369c6936a8ac4",
       "636e6760d6f369c6936a8ac5"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8a9f"
@@ -284,7 +327,8 @@
     ],
     "actors": [
       "636e6760d6f369c6936a8ac6"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa0"
@@ -304,7 +348,8 @@
     ],
     "actors": [
       "636e6760d6f369c6936a8ac8"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa1"
@@ -326,7 +371,8 @@
       "636e6760d6f369c6936a8ac8",
       "636e6760d6f369c6936a8acb",
       "636e6760d6f369c6936a8acc"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa2"
@@ -347,7 +393,8 @@
     "actors": [
       "636e6760d6f369c6936a8ac8",
       "636e6760d6f369c6936a8ac9"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa3"
@@ -370,7 +417,8 @@
       "636e6760d6f369c6936a8aca",
       "636e6760d6f369c6936a8acb",
       "636e6760d6f369c6936a8ace"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa4"
@@ -391,7 +439,8 @@
     "actors": [
       "636e6760d6f369c6936a8abf",
       "636e6760d6f369c6936a8ace"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa5"
@@ -413,7 +462,8 @@
       "636e6760d6f369c6936a8ac2",
       "636e6760d6f369c6936a8acc",
       "636e6760d6f369c6936a8acd"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa6"
@@ -435,7 +485,8 @@
       "636e6760d6f369c6936a8acd",
       "636e6760d6f369c6936a8ada",
       "636e6760d6f369c6936a8ada"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa7"
@@ -456,7 +507,8 @@
     "actors": [
       "636e6760d6f369c6936a8acf",
       "636e6760d6f369c6936a8ad3"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa8"
@@ -479,7 +531,8 @@
       "636e6760d6f369c6936a8ad0",
       "636e6760d6f369c6936a8ad2",
       "636e6760d6f369c6936a8ad5"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aa9"
@@ -500,7 +553,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad0",
       "636e6760d6f369c6936a8ad1"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aaa"
@@ -521,7 +575,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad1",
       "636e6760d6f369c6936a8ad2"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aab"
@@ -544,7 +599,8 @@
       "636e6760d6f369c6936a8ad2",
       "636e6760d6f369c6936a8ad5",
       "636e6760d6f369c6936a8ad8"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aac"
@@ -565,7 +621,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad3",
       "636e6760d6f369c6936a8ad4"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aad"
@@ -574,7 +631,7 @@
     "director": "636e7fbcd6f369c6936a8af4",
     "durada": 105,
     "pegi": "PG",
-    "valoracio": 2017,
+    "valoracio": 7.5,
     "any": 2014,
     "descripcio": "Biopic sobre Phineas Taylor Barnum (1810-1891), un empresario circense estadounidense que fundó el 'Ringling Bros. and Barnum & Bailey Circus', conocido como 'el mayor espectáculo en la tierra'.",
     "imatge": "https://m.media-amazon.com/images/I/71YFVfJIr6L.jpg",
@@ -586,7 +643,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad0",
       "636e6760d6f369c6936a8ad6"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aae"
@@ -607,7 +665,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad6",
       "636e6760d6f369c6936a8ad7"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8aaf"
@@ -628,7 +687,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad8",
       "636e6760d6f369c6936a8add"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8ab0"
@@ -650,13 +710,14 @@
       "636e6760d6f369c6936a8ac0",
       "636e6760d6f369c6936a8acc",
       "636e6760d6f369c6936a8ad9"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8ab1"
     },
     "titol": "Expediente Warren: The conjuring",
-    "director": "636e7fbcd6f369c6936a8aec\n",
+    "director": "636e7fbcd6f369c6936a8aec",
     "durada": 112,
     "pegi": "R",
     "valoracio": 7.5,
@@ -671,7 +732,8 @@
     "actors": [
       "636e6760d6f369c6936a8ad9",
       "636e6760d6f369c6936a8ada"
-    ]
+    ],
+    "copies":[]
   },{
     "_id": {
       "$oid": "636e4427d6f369c6936a8ab2"
@@ -693,5 +755,6 @@
       "636e6760d6f369c6936a8ad9",
       "636e6760d6f369c6936a8adb",
       "636e6760d6f369c6936a8adc"
-    ]
+    ],
+    "copies":[]
   }]

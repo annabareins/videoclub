@@ -42,13 +42,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="estils.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <title><?php echo $pelicula["titol"]; ?></title>
+    <?php require_once("head.php"); ?>
 </head>
 <style>
     .peliculaid{
@@ -206,4 +201,14 @@
     </div>
 </class>
 </body>
+<script>
+    $(document).ready(function (){
+        $(document).on("click", ".botoreserva", function() {
+            var id = '<?php echo $id ?>';
+            var form = $('<form action="insertreserva.php" method = "POST">' + '<input type="hidden" name="id" value="'+id+'"></input>' + '</form>');
+            $("body").append(form);
+            $(form).submit();
+        });
+    });
+</script>
 </html>

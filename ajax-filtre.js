@@ -1,8 +1,7 @@
 $('#filtrar-btn').click(function(e){
     e.preventDefault();
 
-    var esperar=1500;
-    console.log($('#form-filtre').serialize());
+    var esperar=1000;
     $.ajax({
         url: "pelicules-filtrades.php",
         data: $('#form-filtre').serialize(),
