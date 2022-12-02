@@ -1,78 +1,115 @@
-[
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a92"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a92"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a93"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a93"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a94"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a95"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a95"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a96"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a96"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a96"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a97"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a98"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a98"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a99"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a9a"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a9b"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a9c"
-    },
-    {
-        "estat" : 1,
-        "pelicula" : "636e4427d6f369c6936a8a9c"
-    },
-    {
-        "estat" : 0,
-        "pelicula" : "636e4427d6f369c6936a8a9c"
-    }
-]
+[{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50f9"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a92"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50fa"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a92"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50fb"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a93"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50fc"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a93"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50fd"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a94"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50fe"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a95"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f50ff"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a95"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5100"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a96"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5101"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a96"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5102"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a96"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5103"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a97"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5104"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a98"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5105"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a98"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5106"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a99"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5107"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a9a"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5108"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a9b"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f5109"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a9c"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f510a"
+  },
+  "estat": 1,
+  "pelicula": "636e4427d6f369c6936a8a9c"
+},{
+  "_id": {
+    "$oid": "638206fbf35cd07e1a0f510b"
+  },
+  "estat": 0,
+  "pelicula": "636e4427d6f369c6936a8a9c"
+}]
