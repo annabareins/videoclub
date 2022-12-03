@@ -42,8 +42,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?php echo $pelicula["titol"]; ?></title>
-    <?php require_once("head.php"); ?>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="estils.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 <style>
     .peliculaid{
@@ -120,7 +126,9 @@
         font-size: 25px;
         text-align: left;
     }
-
+    .reserva {
+        width: 30%;
+    }
     .botoreserva{
         background: #74818E;
         border: none;
@@ -128,12 +136,18 @@
         padding: 10px 30px;
         font-size: 25px;
         border-radius: 15px;
+        width: 100%;
+        margin-bottom: 5px;
     }
-
+    .botoborrar{
+        background: #dc3545;
+    }
     .botoreserva:hover{
         background: #6B7885;
     }
-
+    .botoborrar:hover{
+        background: #9d212d;
+    }
     .imatgeactor{
     }
 
@@ -186,7 +200,10 @@
                     </div>
                     <div class="reserva">
                         <button class="botoreserva" id="reserva">RESERVAR</button>
+                        <button class="botoreserva botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
+                        <p class="error_message" style="color: red"></p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -202,13 +219,38 @@
 </class>
 </body>
 <script>
-    $(document).ready(function (){
-        $(document).on("click", ".botoreserva", function() {
-            var id = '<?php echo $id ?>';
-            var form = $('<form action="insertreserva.php" method = "POST">' + '<input type="hidden" name="id" value="'+id+'"></input>' + '</form>');
-            $("body").append(form);
-            $(form).submit();
-        });
-    });
+
+    function deleteElement(id) {
+        var FD = new FormData();
+        FD.append("idPelicula", id);
+        Swal.fire({
+            icon: 'warning',
+            title: 'Eps!',
+            text: 'Estas segur que vols esborrar aquesta pelicula?',
+            showDenyButton: true,
+            confirmButtonText: 'Si',
+            denyButtonText: 'No',
+        }).then((result)=>{
+            if(result.isConfirmed){
+                $.ajax({
+                    type: "POST",
+                    url: "ajaxDeletePelicula.php",
+                    data: FD,
+                    processData: false,
+                    contentType: false,
+                    success : function(data){
+                       if(data.length > 5){
+                            $('.error_message').html("ERROR: aquesta pelicula te una copia reservada, no es pot borrar");
+                       }
+                       else{
+                           window.location.href = "pelicules.php";
+                       }
+                    }
+                })
+            }
+        })
+    }
+
+
 </script>
 </html>
