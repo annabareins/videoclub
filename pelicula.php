@@ -7,7 +7,6 @@
     if($peliculesdb->count()>0){
         $pelicula = $peliculesdb->findOne(['_id' => new MongoDB\BSON\ObjectId($id)]);
     }
-
     //CATEGORIES
     //Llistem les ids de les categories
     $categoriesids = [];

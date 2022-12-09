@@ -220,6 +220,7 @@ if($categoriesdb->count()>0){
                         </div>
                     </li>
                     <li><input id="filtrar-btn" type="submit" value="Filtrar"></li>
+                    <input id="createMovie-btn"  type="button" style="margin-left: 5%" value="Crear Pel·licula" onclick="goCreateMovie();"></input>
                 </ul>
             </form>
         </div>
@@ -245,6 +246,9 @@ if($categoriesdb->count()>0){
             $(form).submit();
         });
     });
+    function goCreateMovie() {
+        window.location.href="createMovie.php"
+    }
 </script>
 
 <script src="ajax-filtre.js"></script>

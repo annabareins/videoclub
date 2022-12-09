@@ -85,7 +85,7 @@ $date = date('Y-m-d');
                     <td><?php echo $r[6]; ?></td>
                     <td><?php echo $r[1]; ?></td>
                     <td><?php echo $r[2]; ?></td>
-                    <td><i class="fa fa-trash-o deleteReserva" aria-hidden="true" onclick="deleteElement('<?php echo $r[0]; ?>')"></i></td>
+                    <td><i class="fa fa-trash-o deleteReserva cursor" style="cursor: pointer" aria-hidden="true" onclick="deleteElement('<?php echo $r[0]; ?>')"></i></td>
                 </tr>
             <?php } ?>
         </table>
