@@ -4,6 +4,8 @@
     $sql_directors = [];
     $actors = [];
     $sql_actors = [];
+    $categories = [];
+    $sql_categories = [];
     if ($directorsdb->count()>0) {
         $sql_directors = $directorsdb->find();
         foreach ($sql_directors as $d) {
@@ -19,6 +21,14 @@
             $aux = [];
             array_push($aux, $a["_id"],$a["nom"],$a["imatge"],$a["pelicules"]);
             $actors[] = $aux;
+        }
+    }
+    if ($categoriesdb->count()>0) {
+        $sql_categories = $categoriesdb->find();
+        foreach ($sql_categories as $c) {
+            $aux = [];
+            array_push($aux, $c["_id"],$c["acronim"],$c["nom"],$c["pelicules"]);
+            $categories[] = $aux;
         }
     }
 
@@ -46,7 +56,7 @@
                         <div class="desp_cat">
                             <select id="directorPelicula">
                                 <?php foreach ($directors as $d)
-                                    echo "<option value='" .$d[1]. "'>" .$d[1]."</option>";
+                                    echo "<option value='" .$d[0]. "'>" .$d[1]."</option>";
                                 ?>
                             </select>
                         </div>
@@ -57,14 +67,14 @@
                         <div class="multiSelect">
                             <div class="selectBox" onclick="showCheckboxes()">
                                 <select>
-                                    <option>Select an option</option>
+                                    <option>Selecciona els Actors de la Pel·licula</option>
                                 </select>
                                 <div class="overSelect"></div>
                             </div>
                             <div id="checkboxes">
                                 <?php foreach ($actors as $a) {
                                     echo "<label> 
-                                        <input type='checkbox' id='directorPelicula' value='.$a[0].'> 
+                                        <input type='checkbox' class='actorsPelicula' onchange='getValue(this.value)' value='$a[0]'>
                                         " . $a[1] . "</label>";
                                 }
                                 ?>
@@ -72,7 +82,27 @@
                         </div>
                     </li>
                     <li>
-                        <label for="duradaPelicula">Titol Pel·licula</label>
+                        <i aria-hidden="true" title="Actor/s Pel·licula"></i>
+                        <label> Actor/s de la Pel·licula </label>
+                        <div class="multiSelect">
+                            <div class="selectBox" onclick="showCheckboxesCategories()">
+                                <select>
+                                    <option>Selecciona les Categories de la Pel·licula</option>
+                                </select>
+                                <div class="overSelect"></div>
+                            </div>
+                            <div id="checkboxesCategories">
+                                <?php foreach ($categories as $c) {
+                                    echo "<label> 
+                                        <input type='checkbox' class='actorsPelicula' onchange='getValueCategories(this.value)' value='$c[0]'>
+                                        " . $c[2] . "</label>";
+                                }
+                                ?>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="duradaPelicula">Durada Pel·licula</label>
                         <input type="text" id="duradaPelicula" name="duradaPelicula" />
                     </li>
                     <li>
@@ -105,7 +135,9 @@
 </body>
 <script>
     let expanded = false;
-
+    let expandedCategories = false;
+    let actors = [];
+    let categories = [];
     function showCheckboxes() {
         var checkboxes = document.getElementById("checkboxes");
         if (!expanded) {
@@ -116,18 +148,56 @@
             expanded = false;
         }
     }
+    function showCheckboxesCategories() {
+        var checkboxes = document.getElementById("checkboxesCategories");
+        if (!expandedCategories) {
+            checkboxes.style.display = "block";
+            expandedCategories = true;
+        } else {
+            checkboxes.style.display = "none";
+            expandedCategories = false;
+        }
+    }
+    function getValue(value){
+        let found = false;
+        for( var i = 0; i < actors.length; i++){
+
+            if ( actors[i] === value) {
+
+                actors.splice(i, 1);
+                found = true;
+                break;
+            }
+        }
+        if (!found)
+            actors.push(value);
+    }
+    function getValueCategories(value){
+        let found = false;
+        for( var i = 0; i < categories.length; i++){
+
+            if ( categories[i] === value) {
+
+                categories.splice(i, 1);
+                found = true;
+                break;
+            }
+        }
+        if (!found)
+            categories.push(value);
+    }
     function createMovie(){
         let FD = new FormData();
-        let titol, nomDirector, duradaPelicula, PEGI, valoracioPelicula, anyPelicula, descripcioPelicula, imatgePelicula;
+        let titol, nomDirector, duradaPelicula, PEGI, valoracioPelicula, anyPelicula, descripcioPelicula, imatgePelicula, a;
         titol = document.getElementById("titolPelicula").value;
-        nomDirector = document.getElementById("nomDirector").value;
+        nomDirector = document.getElementById("directorPelicula").value;
         duradaPelicula = document.getElementById("duradaPelicula").value;
         PEGI = document.getElementById("PEGI").value;
         valoracioPelicula = document.getElementById("valoracioPelicula").value;
         anyPelicula = document.getElementById("anyPelicula").value;
         descripcioPelicula = document.getElementById("descripcioPelicula").value;
         imatgePelicula = document.getElementById("imatgePelicula").value;
-        FD.append("titol", titol);
+        FD.append("titol", titol)
         FD.append("nomDirector", nomDirector);
         FD.append("duradaPelicula", duradaPelicula);
         FD.append("PEGI", PEGI);
@@ -135,7 +205,12 @@
         FD.append("anyPelicula", anyPelicula);
         FD.append("descripcioPelicula", descripcioPelicula);
         FD.append("imatgePelicula", imatgePelicula);
-        console.log('HOLA ' + nomDirector);
+        for (const actor in actors){
+            FD.append("actors[]", actors[actor]);
+        }
+        for (const categoria in categories){
+            FD.append("categories[]", categories[categoria]);
+        }
         $.ajax({
             type: "POST",
             url: "ajaxCreateMovie.php",
@@ -180,6 +255,18 @@
     }
 
     #checkboxes label:hover {
+        background-color: #1e90ff;
+    }
+    #checkboxesCategories {
+        display: none;
+        border: 1px #dadada solid;
+    }
+
+    #checkboxesCategories label {
+        display: block;
+    }
+
+    #checkboxesCategories label:hover {
         background-color: #1e90ff;
     }
 </style>
