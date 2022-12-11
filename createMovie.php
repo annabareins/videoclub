@@ -1,4 +1,28 @@
-<?php ?>
+<?php
+    require_once("connect_data.php");
+    $directors = [];
+    $sql_directors = [];
+    $actors = [];
+    $sql_actors = [];
+    if ($directorsdb->count()>0) {
+        $sql_directors = $directorsdb->find();
+        foreach ($sql_directors as $d) {
+            $aux = [];
+            array_push($aux, $d["_id"],$d["nom"],$d["imatge"],$d["pelicules"]);
+            $directors[] = $aux;
+        }
+        /*echo '<pre>'; print_r($directors); echo '</pre>';*/
+    }
+    if ($actorsdb->count()>0) {
+        $sql_actors = $actorsdb->find();
+        foreach ($sql_actors as $a) {
+            $aux = [];
+            array_push($aux, $a["_id"],$a["nom"],$a["imatge"],$a["pelicules"]);
+            $actors[] = $aux;
+        }
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -17,8 +41,35 @@
                         <input type="text" id="titolPelicula" name="titolPelicula" />
                     </li>
                     <li>
-                        <label for="nomDirector">Nom Director</label>
-                        <input type="text" id="nomDirector" name="nomDirector" />
+                        <i aria-hidden="true" title="Director Pel·licula"></i>
+                        <label> Director de la Pel·licula </label>
+                        <div class="desp_cat">
+                            <select id="directorPelicula">
+                                <?php foreach ($directors as $d)
+                                    echo "<option value='" .$d[1]. "'>" .$d[1]."</option>";
+                                ?>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <i aria-hidden="true" title="Actor/s Pel·licula"></i>
+                        <label> Actor/s de la Pel·licula </label>
+                        <div class="multiSelect">
+                            <div class="selectBox" onclick="showCheckboxes()">
+                                <select>
+                                    <option>Select an option</option>
+                                </select>
+                                <div class="overSelect"></div>
+                            </div>
+                            <div id="checkboxes">
+                                <?php foreach ($actors as $a) {
+                                    echo "<label> 
+                                        <input type='checkbox' id='directorPelicula' value='.$a[0].'> 
+                                        " . $a[1] . "</label>";
+                                }
+                                ?>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <label for="duradaPelicula">Titol Pel·licula</label>
@@ -53,6 +104,18 @@
     </div>
 </body>
 <script>
+    let expanded = false;
+
+    function showCheckboxes() {
+        var checkboxes = document.getElementById("checkboxes");
+        if (!expanded) {
+            checkboxes.style.display = "block";
+            expanded = true;
+        } else {
+            checkboxes.style.display = "none";
+            expanded = false;
+        }
+    }
     function createMovie(){
         let FD = new FormData();
         let titol, nomDirector, duradaPelicula, PEGI, valoracioPelicula, anyPelicula, descripcioPelicula, imatgePelicula;
@@ -85,3 +148,38 @@
         })
     }
 </script>
+<style>
+    .multiselect {
+        width: 200px;
+    }
+
+    .selectBox {
+        position: relative;
+    }
+
+    .selectBox select {
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .overSelect {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    #checkboxes {
+        display: none;
+        border: 1px #dadada solid;
+    }
+
+    #checkboxes label {
+        display: block;
+    }
+
+    #checkboxes label:hover {
+        background-color: #1e90ff;
+    }
+</style>
