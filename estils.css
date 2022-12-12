@@ -58,6 +58,29 @@ body {
     align-content: flex-start;
 }
 
+.llista_clients{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.form_add_client{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    max-width: 20rem;
+    width: 90%;
+}
+
+.form_add_client_field{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 14px;
+    margin: 0.875rem;
+}
+
 .pelicula{
     display: flex;
     flex-direction: column;
@@ -65,6 +88,16 @@ body {
     padding: 10px 20px;
     width: 220px;
     height: 390px;
+
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px 20px;
+    width: 500px;
+    height: 110px;
 }
 
 .pelicula img{
@@ -200,9 +233,6 @@ body {
 }
 
 /**** CLIENTS  ****/
-.llista_clients{
-    width: 1000px;
-}
 .llista_clients .cap{
     width: 100%;
     float: left;
@@ -269,4 +299,28 @@ body {
     border-radius: 4px;
     cursor: pointer;
     margin-top: -6px;
+}
+
+.botoAfegirClient {
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    background: #2c9c24;
+}
+
+.botoAfegirUsuari {
+    background: #091842;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 30px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-bottom: 5px;
 }

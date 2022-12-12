@@ -219,6 +219,14 @@
 </class>
 </body>
 <script>
+    $(document).ready(function (){
+        $(document).on("click", ".botoreserva", function() {
+            var id = '<?php echo $id ?>';
+            var form = $('<form action="insertreserva.php" method = "POST">' + '<input type="hidden" name="id" value="'+id+'"></input>' + '</form>');
+            $("body").append(form);
+            $(form).submit();
+        });
+    });
 
     function deleteElement(id) {
         var FD = new FormData();

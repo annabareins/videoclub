@@ -5,7 +5,7 @@
     $id = "";
     $copia = "";
     $peliculaSeleccionada = "";
-    if (!isset($_POST['_id'])) {
+    if (!isset($_POST['id'])) {
         $id=$_POST['id'];
         $peliculaSeleccionada = $peliculesdb->findOne(['_id' => new MongoDB\BSON\ObjectId($id)]);
         $copiaSeleccionada = $copiesdb->find(['pelicula' => $id, 'estat' => 0]);
@@ -78,7 +78,9 @@
 
     .afegirClient, .estatClient{
         padding: 0 35px;
+
     }
+
 
     .dadesReserva{
         width: 100%;
@@ -152,7 +154,7 @@
                     <div class="dniClient">
                         <input type="search" id="dni" name="dni" placeholder="DNI">
                     </div>
-                    <div class="afegirClient"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></div>
+                    <div class="afegirClient"><i class="fa fa-plus fa-lg" onClick="location.href='addUser.php'" aria-hidden="true"></i></div>
                     <div class="nomClient" style="display: none;" id="nomClient">
                         <b id="client"></b>
                         <div class="estatClient"><i class="fa fa-exclamation-triangle" aria-hidden="true" id="estatClient"></i></div>

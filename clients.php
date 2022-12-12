@@ -25,7 +25,14 @@ if($clientsdb->count()>0){
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
+<style>
+    .llista_clients{
+        width: 100%;
+        font-size: 20px;
+    }
+</style>
 <body>
 <div class="contenidor">
     <?php require("menu.php"); ?>
@@ -51,7 +58,7 @@ if($clientsdb->count()>0){
           </tr>
         <?php foreach ($clients as $p){?>
             <tr class="dades_clnt" data-id="<?php echo $p[0];?>">
-               <td> 👤 </td>
+               <td> <i class="fa fa-trash" aria-hidden="true" onclick="deleteElement('<?php echo $p[0]; ?>')"></i> </td>
                <td><?php echo $p[1];?></td>
                <td><?php echo $p[2];?></td>
                <td><?php echo $p[3];?></td>
@@ -73,8 +80,12 @@ if($clientsdb->count()>0){
                </td>
            </tr>
         <?php } ?>
+
         </table>
+        <button class="botoAfegirClient" onClick="location.href='addUser.php'">Afegir Client</button>
+
     </div>
+
 </div>
 </body>
 <script>
@@ -86,6 +97,45 @@ if($clientsdb->count()>0){
         });
     });
 
+    function deleteElement(id) {
+        var FD = new FormData();
+        FD.append("idClient", id);
+        console.log(id)
+        Swal.fire({
+            icon: 'warning',
+            title: 'Eps!',
+            text: 'Estas segur que vols esborrar aquest client?',
+            showDenyButton: true,
+            confirmButtonText: 'Si',
+            denyButtonText: 'No',
+        }).then((result)=>{
+            if(result.isConfirmed){
+                $.ajax({
+                    type: "POST",
+                    url: "ajaxDeleteUser.php",
+                    data: FD,
+                    processData: false,
+                    contentType: false,
+                    success : function(data){
+                        if(data == "1"){
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Ups!',
+                                text: 'El client te una copia reservada',
+                                confirmButtonText: 'Okay',
+                            })
+                        }
+                        else{
+                            Swal.fire({
+                                icon: 'success',
+                                title: 'Usuari eliminat!',
+                            }).then((result) => {window.location.href = "clients.php";})
+                        }
+                    }
+                })
+            }
+        })
+    }
 </script>
 
 <script src="ajax-cerca.js"></script>
