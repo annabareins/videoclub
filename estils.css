@@ -1,6 +1,6 @@
 body {
     background-color: #212F3D !important;
-    color: #DED0C2 !important;
+    color: white !important;
 }
 
 .contenidor{
@@ -61,16 +61,7 @@ body {
 .llista_clients{
     margin: auto;
     width: 50%;
-    border: 3px solid green;
     padding: 10px;
-}
-
-.form_add_client{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 320px;
-    max-width: 20rem;
-    width: 90%;
 }
 
 .form_add_client_field{
@@ -251,7 +242,6 @@ body {
 .llista_clients .taula_clnts{
     float: left;
     width: 100%;
-    margin-left: 20px;
 }
 .llista_clients .taula_clnts tr{
     width: 100%;
@@ -314,6 +304,10 @@ body {
     background: #2c9c24;
 }
 
+.botoAfegirClient:hover{
+    background: #25871E;
+}
+
 .botoAfegirUsuari {
     background: #091842;
     border: none;
@@ -323,4 +317,8 @@ body {
     font-size: 25px;
     border-radius: 15px;
     margin-bottom: 5px;
+}
+
+.botoAfegirUsuari:hover{
+    background: #07122F;
 }

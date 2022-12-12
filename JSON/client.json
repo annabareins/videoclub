@@ -4,9 +4,11 @@
   },
   "nom": "Anna Barea Colomer",
   "dni": "68116811A",
-  "penalitzacio": 0,
+  "penalitzacio": 1,
   "reserves": [
-    "6387c6de262c221cf30fb143"
+    "638912e46c2326b6810e38c3",
+    "638912f66c2326b6810e38c4",
+    "638915496c2326b6810e38c6"
   ]
 },{
   "_id": {

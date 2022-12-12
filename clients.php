@@ -14,12 +14,11 @@ if($clientsdb->count()>0){
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="ca">
 <head>
     <meta charset="UTF-8">
-    <title>Videoclap!</title>
+    <title>Llistat de clients</title>
     <link rel="stylesheet" href="estils.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -31,6 +30,12 @@ if($clientsdb->count()>0){
     .llista_clients{
         width: 100%;
         font-size: 20px;
+    }
+
+    .fa-trash:hover{
+        color: red;
+        animation-delay: 0.5s;
+        animation-duration: 1s;
     }
 </style>
 <body>
@@ -49,12 +54,12 @@ if($clientsdb->count()>0){
             </div>
         </div>
         <table class="taula_clnts">
-          <tr class="header_taula">
+          <tr class="header_taula" style="border-bottom: 2px solid white !important;">
             <th> </th>
-            <th>Nom</th>
-            <th>Dni</th>
-            <th>Penalització</th>
-            <th>Reserves</th>
+            <th>NOM</th>
+            <th>DNI</th>
+            <th>PENALITZACIÓ</th>
+            <th>RESERVES</th>
           </tr>
         <?php foreach ($clients as $p){?>
             <tr class="dades_clnt" data-id="<?php echo $p[0];?>">

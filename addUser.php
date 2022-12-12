@@ -16,15 +16,30 @@ require_once("connect_data.php");
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 </head>
+<style>
+    .crearUsuari{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 25px;
+    }
+    input{
+        background: none;
+        border: none;
+        border-bottom: 2px solid white;
+        color: white;
+        width: 500px;
+    }
+</style>
 <body>
 <div class="contenidor">
     <?php require("menu.php"); ?>
     <div class="header">
         <div class="logo"><img src="logo1.png"></div>
     </div>
-    <div class="llista_clients">
+    <div class="crearUsuari">
         <form class= "form_add_client">
-            <h1>Afegir Usuari</h1>
             <label for="dni">Dni:</label><br>
             <input type="text" id="dni" name="dni"><br>
             <label for="nom">Nom:</label><br>
@@ -33,7 +48,9 @@ require_once("connect_data.php");
             <input type="number" id="telefon" name="telefon"><br>
             <label for="email">E-mail:</label><br>
             <input type="text" id="email" name="email"><br>
-            <button class="botoAfegirUsuari" type="button">Afegir Usuari</button>
+            <div style="display: flex; justify-content: center;">
+                <button class="botoAfegirUsuari" type="button">Afegir Usuari</button>
+            </div>
         </form>
 
     </div>
@@ -83,7 +100,7 @@ require_once("connect_data.php");
                             icon: 'success',
                             title: 'Usuari Creat!',
                             confirmButtonText: 'Okay',
-                        }).then((result) => {window.location.href = "pelicules.php";})
+                        }).then((result) => {window.location.href = "clients.php";})
                     }
                     else {
                         Swal.fire({
