@@ -201,6 +201,7 @@
                         <button class="botoreserva" id="reserva">RESERVAR</button>
                         <button class="botoreserva botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
                         <p class="error_message" style="color: red"></p>
+                        <button class="botoreserva" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIA</button>
                     </div>
 
                 </div>
@@ -244,6 +245,31 @@
                        else{
                            window.location.href = "pelicules.php";
                        }
+                    }
+                })
+            }
+        })
+    }
+    function afegirCopia(idPelicula) {
+        let FD = new FormData();
+        FD.append("idPelicula",idPelicula);
+        Swal.fire({
+            icon: 'warning',
+            title: 'Eps!',
+            text: 'Estas segur que vols afegir copia a aquesta pelicula?',
+            showDenyButton: true,
+            confirmButtonText: 'Si',
+            denyButtonText: 'No',
+        }).then((result)=>{
+            if(result.isConfirmed){
+                $.ajax({
+                    type: "POST",
+                    url: "ajaxAfegirCopia.php",
+                    data: FD,
+                    processData: false,
+                    contentType: false,
+                    success : function(data){
+                        window.location.href = "pelicules.php";
                     }
                 })
             }
