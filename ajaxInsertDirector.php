@@ -3,10 +3,9 @@ require_once("connect_data.php");
 
 $nom = $_POST["nom"];
 $foto = $_POST["foto"];
-$idPelicula = $_POST["idPelicula"];
 
 $busca = $directorsdb->findOne(['nom' => $nom]);
-$peliculaArray = [$idPelicula];
+$peliculaArray = [];
 
 if ($busca["nom"] != $nom ){
     $insertUser = $directorsdb->insertOne([
