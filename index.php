@@ -25,7 +25,7 @@ if($peliculesdb->count()>0){
 <body>
 <class class="contenidor" style="background-color: #2E4053">
     <?php require_once("menu.php"); ?>
-    <img style="margin: auto" src="logo1.png" width="789" height="296" alt="logo">
+    <img style="margin: auto; mix-blend-mode: luminosity;" src="logo1.png" width="789" height="296" alt="logo">
 </class>
 
 
