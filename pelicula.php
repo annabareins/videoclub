@@ -128,7 +128,7 @@
     .reserva {
         width:30%;
     }
-    .botoreserva{
+    .botoreserva, .botoborrar, .botocopies{
         background: #74818E;
         border: none;
         color: white;
@@ -225,8 +225,7 @@
                     </div>
                     <div class="reserva">
                         <button class="botoreserva" id="reserva">RESERVAR</button>
-                        <p class="error_message" style="color: red"></p>
-                        <div class="input-group plus-minus-input">
+                        <div class="input-group plus-minus-input" style="display:flex; justify-content: center; padding: 10px;">
                             <div class="input-group-button">
                                 <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
                                     <i class="fa fa-minus" aria-hidden="true"></i>
@@ -239,8 +238,8 @@
                                 </button>
                             </div>
                         </div>
-                        <button style="margin-bottom: 10px" class="botoreserva" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIES</button>
-                        <button class="botoreserva botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
+                        <button style="margin-bottom: 10px" class="botocopies" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIES</button>
+                        <button class="botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
                     </div>
 
                 </div>

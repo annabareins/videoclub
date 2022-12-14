@@ -13,6 +13,7 @@
     }
     $pelicula = "";
     $pelicula = $peliculesdb->find();
+
 ?>
 
 <!DOCTYPE html>
@@ -208,7 +209,7 @@
 
         $(".seleccionable").change(function () {
             if(this.value != ""){
-                document.getElementById("F").style.display = "flex";
+                document.getElementById("imatge").style.display = "flex";
                 document.getElementById("estat").style.display = "flex";
                 document.getElementById("peliculaEstat").style.display = "block";
                 document.getElementById("peliculaImatge").style.display = "block";

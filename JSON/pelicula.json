@@ -1,760 +1,760 @@
 [{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a92"
-    },
-    "titol": "E.T., el extraterrestre",
-    "director": "636e7fbcd6f369c6936a8ae3",
-    "durada": 105,
-    "pegi": "PG",
-    "valoracio": 7.9,
-    "any": 1982,
-    "descripcio": "Un pequeño ser de otro planeta se queda abandonado en la Tierra cuando su nave, al emprender el regreso, se olvida de él. Está completamente solo y tiene miedo, pero se hará amigo de un niño, que lo esconde en su casa. El pequeño y sus hermanos intentan encontrar la forma de que el pequeño extraterrestre regrese a su planeta antes de que lo encuentren los científicos y la policía.",
-    "imatge": "https://m.media-amazon.com/images/I/814-9+LgNTL._SL1500_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c7",
-      "636f8fc27ce5c77256e9cc11",
-      "6367c366ad77032663fec7cf"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8abe",
-      "636e6760d6f369c6936a8ac1"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f50f9",
-      "638206fbf35cd07e1a0f50fa"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a93"
-    },
-    "titol": "Querido John",
-    "director": "636e7fbcd6f369c6936a8af2",
-    "durada": 108,
-    "pegi": "PG-13",
-    "valoracio": 6.3,
-    "any": 2010,
-    "descripcio": "John Tyree (Channing Tatum), un apuesto soldado, regresa a casa de permiso y se enamora de Savannah Curtis (Amanda Seyfried), una joven estudiante universitaria. Drama romántico basado en una novela de Nicholas Sparks ('El diario de Noah', 'Nights in Rodhante').",
-    "imatge": "https://i.pinimg.com/originals/20/68/2a/20682acae6bafacd0adc36153830b3bc.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce",
-      "6367c366ad77032663fec7cd"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8abf",
-      "636e6760d6f369c6936a8ac0"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f50fb",
-      "638206fbf35cd07e1a0f50fc"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a94"
-    },
-    "titol": "Los ángeles de Charlie",
-    "director": "636e7fbcd6f369c6936a8aee",
-    "durada": 98,
-    "pegi": "PG-13",
-    "valoracio": 5.6,
-    "any": 2000,
-    "descripcio": "Una peculiar agencia de detectives dirigida por el multimillonario Charlie tiene en sus filas a Natalie (Cameron Diaz), Dylan (Drew Barrymore) y Alex (Lucy Liu), tres expertas en artes marciales, en disfraces y en la más avanzada tecnología. Juntas tendrán que ocuparse de un caso muy importante: el secuestro del genio de la informática Eric Knox (Sam Rockwell) por su rival Roger Corwin (Tim Curry). Si no consiguen liberarlo, quedaría destruida la intimidad de todo el mundo, incluido Charlie, su misterioso jefe.",
-    "imatge": "https://m.media-amazon.com/images/I/61Ngkd9CGqL._SL1200_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7c7",
-      "6367c366ad77032663fec7c6"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac1",
-      "636e6760d6f369c6936a8ac2",
-      "636e6760d6f369c6936a8ac3"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f50fd"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a95"
-    },
-    "titol": "Magic Mike XXL",
-    "director": "636e7fbcd6f369c6936a8aea",
-    "durada": 115,
-    "pegi": "R",
-    "valoracio": 5.6,
-    "any": 2015,
-    "descripcio": "Tres años después de que Mike se haya retirado de la vida de stripper cuando estaba en la cresta de la ola, los demás Reyes de Tampa están también a punto de tirar la toalla. Pero quieren hacerlo a su manera: tirando la casa por la ventana en una última representación por todo lo alto en Myrtle Beach, con el legendario Magic Mike compartiendo el escenario con ellos. El viaje, con paradas en Jacksonville y Savannah para saludar a antiguos conocidos y hacer nuevos amigos, les será muy útil para aprender algunas cosas nuevas y liberarse del pasado.",
-    "imatge": "https://m.media-amazon.com/images/I/91SaWkt97TL._SL1500_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7cc"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac0"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f50fe",
-      "638206fbf35cd07e1a0f50ff"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a96"
-    },
-    "titol": "West Side Story",
-    "director": "636e7fbcd6f369c6936a8ae3",
-    "durada": 156,
-    "pegi": "PG-13",
-    "valoracio": 7.2,
-    "any": 2021,
-    "descripcio": "Los adolescentes Tony y María, a pesar de tener afiliaciones con pandillas callejeras rivales, los Jets y los Sharks, se enamoran en la ciudad de Nueva York en la década de los 50. Nueva versión del legendario musical 'West Side Story', a su vez adaptación de una famosa obra de teatro de Broadway, que modernizaba la historia de 'Romeo y Julieta', de Shakespeare.",
-    "imatge": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6edc830a5234f9ebf267a8038ab67448c2beea6e9bc341ea825849b4c6be00f4._RI_V_TTW_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7cc",
-      "636f8fc27ce5c77256e9cc15"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac8"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f5100",
-      "638206fbf35cd07e1a0f5101",
-      "638206fbf35cd07e1a0f5102"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a97"
-    },
-    "titol": "Lincoln",
-    "director": "636e7fbcd6f369c6936a8ae3",
-    "durada": 150,
-    "pegi": "PG-13",
-    "valoracio": 7.3,
-    "any": 2012,
-    "descripcio": "AEn 1865, mientras la Guerra Civil Americana se acerca a su fin, el presidente Abraham Lincoln propone una enmienda que prohíba la esclavitud en los Estados Unidos. Sin embargo esto plantea un gran dilema: si la paz llega antes de que se apruebe la enmienda, el Sur tendrá poder para rechazarla y mantener la esclavitud; si la paz llega después, decenas de miles de personas seguirán muriendo en el frente. En una carrera contrarreloj para conseguir los votos necesarios, Lincoln se enfrenta a la mayor crisis de conciencia de su vida.",
-    "imatge": "https://lamadraza.ugr.es/wp-content/uploads/2019/01/lincoln.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "636f8fc27ce5c77256e9cc13",
-      "636f8fc27ce5c77256e9cc16"
-    ],
-    "actors": [],
-    "copies":[
-      "638206fbf35cd07e1a0f5103"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a98"
-    },
-    "titol": "Atrápame si puedes",
-    "director": "636e7fbcd6f369c6936a8ae3",
-    "durada": 141,
-    "pegi": "PG-13",
-    "valoracio": 8.1,
-    "any": 2002,
-    "descripcio": "Basada en una historia real. En los años sesenta, Frank W. Abagnale (Leonardo DiCaprio) era un joven y escurridizo delincuente que adoptaba diversas identidades (médico, abogado o copiloto de líneas aéreas). Carl Hanratty (Tom Hanks), un agente del FBI, tenía la misión de seguir su pista y capturarlo para llevarlo ante la justicia, pero Frank siempre iba un paso por delante de él.",
-    "imatge": "https://www.cope.es/blogs/palomitas-de-maiz/wp-content/uploads/sites/6/2020/04/cartel-interior-atrapame-si-puedes.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "636f8fc27ce5c77256e9cc13",
-      "636f8fc27ce5c77256e9cc15"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8add",
-      "636e6760d6f369c6936a8ade",
-      "636e6760d6f369c6936a8add",
-      "636e6760d6f369c6936a8ade"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f5104",
-      "638206fbf35cd07e1a0f5105"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a99"
-    },
-    "titol": "La boda de mi mejor amigo",
-    "director": "636e7fbcd6f369c6936a8af6",
-    "durada": 105,
-    "pegi": "PG-13",
-    "valoracio": 6.3,
-    "any": 1997,
-    "descripcio": "Julianne Potter, una crítica gastronómica, se da cuenta de que está enamorada de su mejor amigo justo el día que él la llama para anunciarle que se va a casar con una chica de la alta sociedad. Sólo dispone de tres días para urdir un plan que le permita impedir la boda. ",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BMzRiMGE2MmMtM2RhMy00OWNiLTljYTktOThmMmE1YjY1NjYyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac2",
-      "636e6760d6f369c6936a8ac4"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f5106"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a9a"
-    },
-    "titol": "Kill Bill: Volumen 1",
-    "director": "636e7fbcd6f369c6936a8ae4",
-    "durada": 111,
-    "pegi": "R",
-    "valoracio": 8.2,
-    "any": 2003,
-    "descripcio": "El día de su boda, una asesina profesional (Thurman) sufre el ataque de algunos miembros de su propia banda, que obedecen las órdenes de Bill (David Carradine), el jefe de la organización criminal. Logra sobrevivir al ataque, aunque queda en coma. Cuatro años después despierta dominada por un gran deseo de venganza.",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7c6",
-      "636f8fc27ce5c77256e9cc15"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac3"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f5107"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a9b"
-    },
-    "titol": "Kill Bill: Volumen 2",
-    "director": "636e7fbcd6f369c6936a8ae4",
-    "durada": 137,
-    "pegi": "R",
-    "valoracio": 8,
-    "any": 2004,
-    "descripcio": "Tras eliminar a algunos miembros de la banda que intentaron asesinarla el día de su boda, 'Mamba Negra' (Uma Thurman) intenta acabar con los demás, especialmente con Bill, su antiguo jefe (David Carradine), que la había dado por muerta.",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BNmFiYmJmN2QtNWQwMi00MzliLThiOWMtZjQxNGRhZTQ1MjgyXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_FMjpg_UX1000_.jpg",
-    "categories": [
-      "636f8fc27ce5c77256e9cc15",
-      "6367c366ad77032663fec7c6",
-      "636f8fc27ce5c77256e9cc12"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac3"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f5108"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a9c"
-    },
-    "titol": "Notting Hill",
-    "director": "636e7fbcd6f369c6936a8af9",
-    "durada": 124,
-    "pegi": "PG-13",
-    "valoracio": 7.2,
-    "any": 1999,
-    "descripcio": "William (Hugh Grant), tranquilo propietario de una pequeña librería de viajes en el popular barrio londinense de Notting Hill, conoce un día por casualidad a la famosa Anna Scott (Julia Roberts), la estrella más rutilante del firmamento cinematográfico actual. Desde el momento en que la actriz entra en su tienda, la vida de William empezará a cambiar.",
-    "imatge": "https://flxt.tmsimg.com/assets/p22928_p_v12_bd.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac4",
-      "636e6760d6f369c6936a8ac6"
-    ],
-    "copies":[
-      "638206fbf35cd07e1a0f5109",
-      "638206fbf35cd07e1a0f510a",
-      "638206fbf35cd07e1a0f510b"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a9d"
-    },
-    "titol": "Pretty Woman",
-    "director": "636e7fbcd6f369c6936a8ae8",
-    "durada": 119,
-    "pegi": "R",
-    "valoracio": 7.1,
-    "any": 1990,
-    "descripcio": "Edward Lewis (Richard Gere), un apuesto y rico hombre de negocios, contrata a una prostituta, Vivian Ward (Julia Roberts), durante un viaje a Los Angeles. Tras pasar con ella la primera noche, Edward le ofrece dinero a Vivian para que pase con él toda la semana y le acompañe a diversos actos sociales. ",
-    "imatge": "https://m.media-amazon.com/images/I/612oWOnZ5LL._SY679_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7ce"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac4",
-      "636e6760d6f369c6936a8ac7"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a9e"
-    },
-    "titol": "Ocean's Eleven",
-    "director": "636e7fbcd6f369c6936a8ae3",
-    "durada": 116,
-    "pegi": "PG-13",
-    "valoracio": 7.7,
-    "any": 2001,
-    "descripcio": "Danny Ocean es un carismático ladrón que, tan sólo 24 horas después de cumplir una larga condena en prisión, ya está planeando su próximo delito. Su objetivo: realizar el mayor atraco de casinos de la historia. Para ello formará un equipo de once hombres, cada uno de ellos el mejor en su campo. Sin embargo surgirá un problema inesperado: el dueño de los locales, Terry Benedic, está saliendo con Tess, su exmujer. ",
-    "imatge": "https://m.media-amazon.com/images/I/91H+fqmPugL._RI_.jpg",
-    "categories": [
-      "636f8fc27ce5c77256e9cc15",
-      "636f8fc27ce5c77256e9cc12"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac4",
-      "636e6760d6f369c6936a8ac5"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8a9f"
-    },
-    "titol": "Love Actually",
-    "director": "636e7fbcd6f369c6936a8af8",
-    "durada": 129,
-    "pegi": "R",
-    "valoracio": 7.6,
-    "any": 2003,
-    "descripcio": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. 'Love, Actually' es una manera abreviada de decir “Love Actually Is All Around” y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor.",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_FMjpg_UX1000_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac6"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa0"
-    },
-    "titol": "Bajo la misma estrella",
-    "director": "636e7fbcd6f369c6936a8aef",
-    "durada": 126,
-    "pegi": "PG-13",
-    "valoracio": 7.7,
-    "any": 2014,
-    "descripcio": "A pesar de que un milagro médico ha conseguido reducir su tumor y darle unos años más de vida, la adolescente Hazel (Shailene Woodley) siempre se ha considerado una enferma terminal. Sin embargo, cuando el joven Gus (Ansel Elgort) entra a formar parte del grupo de ayuda para enfermos de cáncer juvenil, la vida de Hazel se transforma por completo.",
-    "imatge": "https://es.web.img3.acsta.net/pictures/14/02/05/16/10/034641.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce",
-      "6367c366ad77032663fec7c6"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac8"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa1"
-    },
-    "titol": "Baby driver",
-    "director": "636e7fbcd6f369c6936a8ae7",
-    "durada": 115,
-    "pegi": "R",
-    "valoracio": 7.6,
-    "any": 2017,
-    "descripcio": "Baby (Ansel Elgort), un joven y talentoso conductor especializado en fugas, depende del ritmo de su banda sonora personal para ser el mejor en lo suyo. Cuando conoce a la chica de sus sueños (Lily James), Baby ve una oportunidad para abandonar su vida criminal y realizar una huida limpia. Pero después de ser forzado a trabajar para un jefe de una banda criminal (Kevin Spacey), deberá dar la cara cuando un golpe malogrado amenace su vida, su amor y su libertad.",
-    "imatge": "https://i.pinimg.com/736x/52/d3/77/52d37701282a55c60f62b02481272ee6.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c6",
-      "636f8fc27ce5c77256e9cc15",
-      "6367c366ad77032663fec7cb"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac8",
-      "636e6760d6f369c6936a8acb",
-      "636e6760d6f369c6936a8acc"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa2"
-    },
-    "titol": "Billionaire Boys Club",
-    "director": "636e7fbcd6f369c6936a8aeb",
-    "durada": 108,
-    "pegi": "R",
-    "valoracio": 5.6,
-    "any": 2018,
-    "descripcio": "Basada en hechos reales sigue la historia de Joe Hunt (Ansel Elgort) y Dean Karney (Taron Egerton) dos amigos, quienes convencieron a sus ex-compañeros de clase en Harvard para crear un fondo de inversiones llamado Club de Chicos Billonarios que les catapultaría a los escalones más altos de la sociedad de Los Ángeles en los años 80.",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BNDkwZTQzNDAtYjJkZS00MzA5LTliMzItNmRjYmFhOGY5YjFhXkEyXkFqcGdeQXVyODY2MzY0NDE@._V1_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "636f8fc27ce5c77256e9cc12",
-      "636f8fc27ce5c77256e9cc13"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac8",
-      "636e6760d6f369c6936a8ac9"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa3"
-    },
-    "titol": "Mamma Mia! Una y otra vez",
-    "director": "636e7fbcd6f369c6936a8af5",
-    "durada": 114,
-    "pegi": "PG-13",
-    "valoracio": 6.6,
-    "any": 2018,
-    "descripcio": "'Mamma Mia: Una y otra vez' nos lleva de viaje al verano donde comenzó todo. Desde su vida en el presente, los protagonistas de 'Mamma mia!'' nos cuentan los hechos acontecidos el mágico verano en el que comenzó esta historia de los tres posibles padres de Sophie.",
-    "imatge": "https://es.web.img3.acsta.net/pictures/18/05/08/12/55/3711486.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7ce",
-      "6367c366ad77032663fec7cc"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8abf",
-      "636e6760d6f369c6936a8aca",
-      "636e6760d6f369c6936a8acb",
-      "636e6760d6f369c6936a8ace"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa4"
-    },
-    "titol": "Mamma Mia!",
-    "director": "636e7fbcd6f369c6936a8af7",
-    "durada": 108,
-    "pegi": "PG-13",
-    "valoracio": 6.5,
-    "any": 2008,
-    "descripcio": "Versión cinematográfica del popular musical de ABBA. Una joven (Amanda Seyfried) que ha crecido en una pequeña isla griega, ha sido educada por una madre rebelde y poco convencional (Streep), que siempre se ha negado a revelarle la identidad de su padre. Cuando, por fin, parece que la joven está a punto de saberlo, aparecen tres posibles candidatos (Brosnan, Firth y Skarsgard).",
-    "imatge": "https://es.web.img3.acsta.net/medias/nmedia/18/66/74/18/20350628.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7ce",
-      "6367c366ad77032663fec7cc"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8abf",
-      "636e6760d6f369c6936a8ace"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa5"
-    },
-    "titol": "Annie",
-    "director": "636e7fbcd6f369c6936a8afd",
-    "durada": 118,
-    "pegi": "G",
-    "valoracio": 5.3,
-    "any": 2014,
-    "descripcio": "Annie es una niña huérfana que vive en una casa de acogida y que quiere encontrar a sus padres. Un día en su camino se cruza el millonario Sr. Stacks (Jamie Foxx), candidato a alcalde de Nueva York. Este encuentro cambiará para siempre sus vidas... Remake del musical 'Annie', adaptado a la época moderna.",
-    "imatge": "https://images.justwatch.com/poster/10118176/s332/annie-2014.%7Bformat%7D",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7cb",
-      "636f8fc27ce5c77256e9cc11"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac2",
-      "636e6760d6f369c6936a8acc",
-      "636e6760d6f369c6936a8acd"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa6"
-    },
-    "titol": "Insidious",
-    "director": "636e7fbcd6f369c6936a8aec",
-    "durada": 103,
-    "pegi": "PG-13",
-    "valoracio": 6.8,
-    "any": 2010,
-    "descripcio": "Josh (Patrick Wilson), su esposa Renai (Rose Byrne) y sus tres hijos acaban de mudarse a una vieja casa. Pero, tras un desgraciado accidente, uno de los niños entra en coma y, al mismo tiempo, empiezan a producirse en la casa extraños fenómenos que aterrorizan a la familia. ",
-    "imatge": "https://es.web.img3.acsta.net/pictures/14/05/07/09/01/306626.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c8",
-      "6367c366ad77032663fec7cd",
-      "636f8fc27ce5c77256e9cc12"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8acd",
-      "636e6760d6f369c6936a8ada",
-      "636e6760d6f369c6936a8ada"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa7"
-    },
-    "titol": "Lo imposible",
-    "director": "636e7fbcd6f369c6936a8ae6",
-    "durada": 114,
-    "pegi": "PG-13",
-    "valoracio": 7.5,
-    "any": 2012,
-    "descripcio": "Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia.",
-    "imatge": "http://4.bp.blogspot.com/-t8CMMOcopFs/UHZxJO4s0MI/AAAAAAAAEQY/HMEzoLbQLmA/s1600/loimposibleposter.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7c7",
-      "636f8fc27ce5c77256e9cc16"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8acf",
-      "636e6760d6f369c6936a8ad3"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa8"
-    },
-    "titol": "Spider-Man: lejos de casa",
-    "director": "636e7fbcd6f369c6936a8aed",
-    "durada": 130,
-    "pegi": "PG-13",
-    "valoracio": 7.4,
-    "any": 2019,
-    "descripcio": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-    "imatge": "https://es.web.img3.acsta.net/pictures/19/06/04/09/41/5108791.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c7",
-      "6367c366ad77032663fec7cf",
-      "6367c366ad77032663fec7c6"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8acf",
-      "636e6760d6f369c6936a8ad0",
-      "636e6760d6f369c6936a8ad2",
-      "636e6760d6f369c6936a8ad5"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aa9"
-    },
-    "titol": "En el corazón del mar",
-    "director": "636e7fbcd6f369c6936a8afb",
-    "durada": 121,
-    "pegi": "PG-13",
-    "valoracio": 6.9,
-    "any": 2015,
-    "descripcio": "En el invierno de 1820, Owen Chase (Hemsworth) y otros marineros de la tripulación del Essex sobrevivieron en alta mar en durísimas condiciones después de que el barco chocara con una enorme ballena blanca. Owen, obsesionado con la idea de dar caza al cetáceo, se enfrentó a las tormentas, al hambre y a la desesperación. Inspirada en la historia real en la que se basó Herman Melville para escribir el famoso relato 'Moby Dick'.",
-    "imatge": "https://as.com/ocio/imagenes/2015/12/04/cine/1449228453_035704_1449228659_noticia_normal.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c6",
-      "6367c366ad77032663fec7c7",
-      "636f8fc27ce5c77256e9cc13"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad0",
-      "636e6760d6f369c6936a8ad1"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aaa"
-    },
-    "titol": "Thor",
-    "director": "636e7fbcd6f369c6936a8af1",
-    "durada": 114,
-    "pegi": "PG-13",
-    "valoracio": 7,
-    "any": 2011,
-    "descripcio": "Thor es un arrogante y codicioso guerrero cuya imprudencia desata una antigua guerra. Por ese motivo, su padre Odín lo castiga desterrándolo a la Tierra para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Cuando el villano más peligroso de su mundo envía a la Tierra a las fuerzas más oscuras de Asgard, Thor se dará cuenta de lo que realmente hace falta para ser un verdadero héroe.",
-    "imatge": "https://www.ecured.cu/images/7/72/Thor_el_amrtillo.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c6",
-      "6367c366ad77032663fec7c7",
-      "6367c366ad77032663fec7cf"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad1",
-      "636e6760d6f369c6936a8ad2"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aab"
-    },
-    "titol": "Los Vengadores",
-    "director": "636e7fbcd6f369c6936a8af1",
-    "durada": 143,
-    "pegi": "PG-13",
-    "valoracio": 8,
-    "any": 2012,
-    "descripcio": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel 'Los Vengadores', el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
-    "imatge": "https://es.web.img3.acsta.net/pictures/14/03/10/10/35/587504.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c6",
-      "6367c366ad77032663fec7c7",
-      "6367c366ad77032663fec7cf"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad1",
-      "636e6760d6f369c6936a8ad2",
-      "636e6760d6f369c6936a8ad5",
-      "636e6760d6f369c6936a8ad8"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aac"
-    },
-    "titol": "Moulin Rouge!",
-    "director": "636e7fbcd6f369c6936a8afe",
-    "durada": 120,
-    "pegi": "PG-13",
-    "valoracio": 7.6,
-    "any": 2001,
-    "descripcio": "Ambientada en el París bohemio de 1900. Satine, la estrella más rutilante del Moulin Rouge, encandila a toda la ciudad con sus bailes llenos de sensualidad y su enorme belleza. Atrapada entre el amor de dos hombres, un joven escritor y un duque, lucha por hacer realidad su sueño de convertirse en actriz. Pero, en un mundo en el que todo vale, excepto enamorarse, nada es fácil.",
-    "imatge": "https://lasestrellas.com/wp-content/uploads/2018/04/molino.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cc",
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad3",
-      "636e6760d6f369c6936a8ad4"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aad"
-    },
-    "titol": "The Greatest Showman",
-    "director": "636e7fbcd6f369c6936a8af4",
-    "durada": 105,
-    "pegi": "PG",
-    "valoracio": 7.5,
-    "any": 2014,
-    "descripcio": "Biopic sobre Phineas Taylor Barnum (1810-1891), un empresario circense estadounidense que fundó el 'Ringling Bros. and Barnum & Bailey Circus', conocido como 'el mayor espectáculo en la tierra'.",
-    "imatge": "https://m.media-amazon.com/images/I/71YFVfJIr6L.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cc",
-      "6367c366ad77032663fec7cb",
-      "636f8fc27ce5c77256e9cc13"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad0",
-      "636e6760d6f369c6936a8ad6"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aae"
-    },
-    "titol": "Baywatch",
-    "director": "636e7fbcd6f369c6936a8afc",
-    "durada": 121,
-    "pegi": "PG",
-    "valoracio": 5.5,
-    "any": 2017,
-    "descripcio": "Adaptación al cine de la serie 'Los vigilantes de la playa'. Narra la historia del esforzado socorrista Mitch Buchannon (Johnson) y su choque de carácter con un bravucón socorrista novato (Efron). Juntos, descubren una trama delictiva local que amenaza el futuro de la Bahía.",
-    "imatge": "https://m.media-amazon.com/images/I/A13tucXoWlL._SL1500_.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7c6",
-      "636f8fc27ce5c77256e9cc15"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad6",
-      "636e6760d6f369c6936a8ad7"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8aaf"
-    },
-    "titol": "El lobo de Wall Street",
-    "director": "636e7fbcd6f369c6936a8af3",
-    "durada": 180,
-    "pegi": "R",
-    "valoracio": 8.2,
-    "any": 2013,
-    "descripcio": "Película basada en hechos reales del corredor de bolsa neoyorquino Jordan Belfort (Leonardo DiCaprio). A mediados de los años 80, Belfort era un joven honrado que perseguía el sueño americano, pero pronto en la agencia de valores aprendió que lo más importante no era hacer ganar a sus clientes, sino ser ambicioso y ganar una buena comisión. Su enorme éxito y fortuna le valió el mote de 'El lobo de Wall Street'. Dinero. Poder. Mujeres. Drogas. Las tentaciones abundaban y el temor a la ley era irrelevante. Jordan y su manada de lobos consideraban que la discreción era una cualidad anticuada; nunca se conformaban con lo que tenían.",
-    "imatge": "https://play-lh.googleusercontent.com/LNId0AK2hTWOY_3pnFRJ6w0BAsbbfJVcA7bsSWioCpwvoaaDq5YyiFxtJcFQnMmuPx9N-Q",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "636f8fc27ce5c77256e9cc13",
-      "636f8fc27ce5c77256e9cc15"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad8",
-      "636e6760d6f369c6936a8add"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8ab0"
-    },
-    "titol": "Asalto al poder",
-    "director": "636e7fbcd6f369c6936a8afa",
-    "durada": 137,
-    "pegi": "PG-13",
-    "valoracio": 6.3,
-    "any": 2013,
-    "descripcio": "John Cale (Channing Tatum), un policía del Capitolio, ve rechazada su petición de entrar en el Servicio Secreto para proteger al Presidente de los Estados Unidos (Jamie Foxx). Un día lleva a su hija a hacer un tour por la Casa Blanca, momento en el que un comando paramilitar fuertemente armado asalta el edificio. Con el Gobierno de la nación sumido en el caos, Cale intentará salvar al Presidente, a su hija y al país.",
-    "imatge": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2013/6/w1280/twMYX72vkQl3dzVrXE8Ja7dUqcC.jpg",
-    "categories": [
-      "6367c366ad77032663fec7cb",
-      "636f8fc27ce5c77256e9cc12",
-      "6367c366ad77032663fec7c6"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ac0",
-      "636e6760d6f369c6936a8acc",
-      "636e6760d6f369c6936a8ad9"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8ab1"
-    },
-    "titol": "Expediente Warren: The conjuring",
-    "director": "636e7fbcd6f369c6936a8aec",
-    "durada": 112,
-    "pegi": "R",
-    "valoracio": 7.5,
-    "any": 2013,
-    "descripcio": "Basada en una historia real documentada por los reputados demonólogos Ed y Lorraine Warren. Narra los encuentros sobrenaturales que vivió la familia Perron en su casa de Rhode Island a principios de los 70. El matrimonio Warren, investigadores de renombre en el mundo de los fenómenos paranormales, acudieron a la llamada de esta familia aterrorizada por la presencia en su granja de un ser maligno.",
-    "imatge": "https://es.web.img2.acsta.net/pictures/210/143/21014358_20130621122328102.jpg",
-    "categories": [
-      "6367c366ad77032663fec7c8",
-      "6367c366ad77032663fec7cd",
-      "636f8fc27ce5c77256e9cc12"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad9",
-      "636e6760d6f369c6936a8ada"
-    ],
-    "copies":[]
-  },{
-    "_id": {
-      "$oid": "636e4427d6f369c6936a8ab2"
-    },
-    "titol": "Crazy, Stupid, Love",
-    "director": "636e7fbcd6f369c6936a8ae9",
-    "durada": 118,
-    "pegi": "PG-13",
-    "valoracio": 7.4,
-    "any": 2011,
-    "descripcio": "Cal Weaver (Steve Carell), cuarentón y puritano, tiene una vida perfecta: un buen trabajo, una bonita casa, unos hijos estupendos y está casado con su novia de la adolescencia. Sin embargo, cuando se entera de que su esposa (Julianne Moore) lo ha traicionado y quiere el divorcio, su vida se desmorona.",
-    "imatge": "https://cdn.sincroguia.tv/uploads/programs/c/r/a/crazy-stupid-love-poster-211002_SPA-38_V.jpg",
-    "categories": [
-      "6367c366ad77032663fec7ca",
-      "6367c366ad77032663fec7cb",
-      "6367c366ad77032663fec7ce"
-    ],
-    "actors": [
-      "636e6760d6f369c6936a8ad9",
-      "636e6760d6f369c6936a8adb",
-      "636e6760d6f369c6936a8adc"
-    ],
-    "copies":[]
-  }]
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a92"
+  },
+  "titol": "E.T., el extraterrestre",
+  "director": "636e7fbcd6f369c6936a8ae3",
+  "durada": 105,
+  "pegi": "PG",
+  "valoracio": 7.9,
+  "any": 1982,
+  "descripcio": "Un pequeño ser de otro planeta se queda abandonado en la Tierra cuando su nave, al emprender el regreso, se olvida de él. Está completamente solo y tiene miedo, pero se hará amigo de un niño, que lo esconde en su casa. El pequeño y sus hermanos intentan encontrar la forma de que el pequeño extraterrestre regrese a su planeta antes de que lo encuentren los científicos y la policía.",
+  "imatge": "https://m.media-amazon.com/images/I/814-9+LgNTL._SL1500_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c7",
+    "636f8fc27ce5c77256e9cc11",
+    "6367c366ad77032663fec7cf"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8abe",
+    "636e6760d6f369c6936a8ac1"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f50f9",
+    "638206fbf35cd07e1a0f50fa"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a93"
+  },
+  "titol": "Querido John",
+  "director": "636e7fbcd6f369c6936a8af2",
+  "durada": 108,
+  "pegi": "PG-13",
+  "valoracio": 6.3,
+  "any": 2010,
+  "descripcio": "John Tyree (Channing Tatum), un apuesto soldado, regresa a casa de permiso y se enamora de Savannah Curtis (Amanda Seyfried), una joven estudiante universitaria. Drama romántico basado en una novela de Nicholas Sparks ('El diario de Noah', 'Nights in Rodhante').",
+  "imatge": "https://i.pinimg.com/originals/20/68/2a/20682acae6bafacd0adc36153830b3bc.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce",
+    "6367c366ad77032663fec7cd"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8abf",
+    "636e6760d6f369c6936a8ac0"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f50fb",
+    "638206fbf35cd07e1a0f50fc"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a94"
+  },
+  "titol": "Los ángeles de Charlie",
+  "director": "636e7fbcd6f369c6936a8aee",
+  "durada": 98,
+  "pegi": "PG-13",
+  "valoracio": 5.6,
+  "any": 2000,
+  "descripcio": "Una peculiar agencia de detectives dirigida por el multimillonario Charlie tiene en sus filas a Natalie (Cameron Diaz), Dylan (Drew Barrymore) y Alex (Lucy Liu), tres expertas en artes marciales, en disfraces y en la más avanzada tecnología. Juntas tendrán que ocuparse de un caso muy importante: el secuestro del genio de la informática Eric Knox (Sam Rockwell) por su rival Roger Corwin (Tim Curry). Si no consiguen liberarlo, quedaría destruida la intimidad de todo el mundo, incluido Charlie, su misterioso jefe.",
+  "imatge": "https://m.media-amazon.com/images/I/61Ngkd9CGqL._SL1200_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7c7",
+    "6367c366ad77032663fec7c6"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac1",
+    "636e6760d6f369c6936a8ac2",
+    "636e6760d6f369c6936a8ac3"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f50fd"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a95"
+  },
+  "titol": "Magic Mike XXL",
+  "director": "636e7fbcd6f369c6936a8aea",
+  "durada": 115,
+  "pegi": "R",
+  "valoracio": 5.6,
+  "any": 2015,
+  "descripcio": "Tres años después de que Mike se haya retirado de la vida de stripper cuando estaba en la cresta de la ola, los demás Reyes de Tampa están también a punto de tirar la toalla. Pero quieren hacerlo a su manera: tirando la casa por la ventana en una última representación por todo lo alto en Myrtle Beach, con el legendario Magic Mike compartiendo el escenario con ellos. El viaje, con paradas en Jacksonville y Savannah para saludar a antiguos conocidos y hacer nuevos amigos, les será muy útil para aprender algunas cosas nuevas y liberarse del pasado.",
+  "imatge": "https://m.media-amazon.com/images/I/91SaWkt97TL._SL1500_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7cc"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac0"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f50fe",
+    "638206fbf35cd07e1a0f50ff"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a96"
+  },
+  "titol": "West Side Story",
+  "director": "636e7fbcd6f369c6936a8ae3",
+  "durada": 156,
+  "pegi": "PG-13",
+  "valoracio": 7.2,
+  "any": 2021,
+  "descripcio": "Los adolescentes Tony y María, a pesar de tener afiliaciones con pandillas callejeras rivales, los Jets y los Sharks, se enamoran en la ciudad de Nueva York en la década de los 50. Nueva versión del legendario musical 'West Side Story', a su vez adaptación de una famosa obra de teatro de Broadway, que modernizaba la historia de 'Romeo y Julieta', de Shakespeare.",
+  "imatge": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6edc830a5234f9ebf267a8038ab67448c2beea6e9bc341ea825849b4c6be00f4._RI_V_TTW_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7cc",
+    "636f8fc27ce5c77256e9cc15"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac8"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f5100",
+    "638206fbf35cd07e1a0f5101",
+    "638206fbf35cd07e1a0f5102"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a97"
+  },
+  "titol": "Lincoln",
+  "director": "636e7fbcd6f369c6936a8ae3",
+  "durada": 150,
+  "pegi": "PG-13",
+  "valoracio": 7.3,
+  "any": 2012,
+  "descripcio": "AEn 1865, mientras la Guerra Civil Americana se acerca a su fin, el presidente Abraham Lincoln propone una enmienda que prohíba la esclavitud en los Estados Unidos. Sin embargo esto plantea un gran dilema: si la paz llega antes de que se apruebe la enmienda, el Sur tendrá poder para rechazarla y mantener la esclavitud; si la paz llega después, decenas de miles de personas seguirán muriendo en el frente. En una carrera contrarreloj para conseguir los votos necesarios, Lincoln se enfrenta a la mayor crisis de conciencia de su vida.",
+  "imatge": "https://lamadraza.ugr.es/wp-content/uploads/2019/01/lincoln.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "636f8fc27ce5c77256e9cc13",
+    "636f8fc27ce5c77256e9cc16"
+  ],
+  "actors": [],
+  "copies": [
+    "638206fbf35cd07e1a0f5103"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a98"
+  },
+  "titol": "Atrápame si puedes",
+  "director": "636e7fbcd6f369c6936a8ae3",
+  "durada": 141,
+  "pegi": "PG-13",
+  "valoracio": 8.1,
+  "any": 2002,
+  "descripcio": "Basada en una historia real. En los años sesenta, Frank W. Abagnale (Leonardo DiCaprio) era un joven y escurridizo delincuente que adoptaba diversas identidades (médico, abogado o copiloto de líneas aéreas). Carl Hanratty (Tom Hanks), un agente del FBI, tenía la misión de seguir su pista y capturarlo para llevarlo ante la justicia, pero Frank siempre iba un paso por delante de él.",
+  "imatge": "https://www.cope.es/blogs/palomitas-de-maiz/wp-content/uploads/sites/6/2020/04/cartel-interior-atrapame-si-puedes.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "636f8fc27ce5c77256e9cc13",
+    "636f8fc27ce5c77256e9cc15"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8add",
+    "636e6760d6f369c6936a8ade",
+    "636e6760d6f369c6936a8add",
+    "636e6760d6f369c6936a8ade"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f5104",
+    "638206fbf35cd07e1a0f5105"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a99"
+  },
+  "titol": "La boda de mi mejor amigo",
+  "director": "636e7fbcd6f369c6936a8af6",
+  "durada": 105,
+  "pegi": "PG-13",
+  "valoracio": 6.3,
+  "any": 1997,
+  "descripcio": "Julianne Potter, una crítica gastronómica, se da cuenta de que está enamorada de su mejor amigo justo el día que él la llama para anunciarle que se va a casar con una chica de la alta sociedad. Sólo dispone de tres días para urdir un plan que le permita impedir la boda. ",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BMzRiMGE2MmMtM2RhMy00OWNiLTljYTktOThmMmE1YjY1NjYyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac2",
+    "636e6760d6f369c6936a8ac4"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f5106"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a9a"
+  },
+  "titol": "Kill Bill: Volumen 1",
+  "director": "636e7fbcd6f369c6936a8ae4",
+  "durada": 111,
+  "pegi": "R",
+  "valoracio": 8.2,
+  "any": 2003,
+  "descripcio": "El día de su boda, una asesina profesional (Thurman) sufre el ataque de algunos miembros de su propia banda, que obedecen las órdenes de Bill (David Carradine), el jefe de la organización criminal. Logra sobrevivir al ataque, aunque queda en coma. Cuatro años después despierta dominada por un gran deseo de venganza.",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7c6",
+    "636f8fc27ce5c77256e9cc15"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac3"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f5107"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a9b"
+  },
+  "titol": "Kill Bill: Volumen 2",
+  "director": "636e7fbcd6f369c6936a8ae4",
+  "durada": 137,
+  "pegi": "R",
+  "valoracio": 8,
+  "any": 2004,
+  "descripcio": "Tras eliminar a algunos miembros de la banda que intentaron asesinarla el día de su boda, 'Mamba Negra' (Uma Thurman) intenta acabar con los demás, especialmente con Bill, su antiguo jefe (David Carradine), que la había dado por muerta.",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BNmFiYmJmN2QtNWQwMi00MzliLThiOWMtZjQxNGRhZTQ1MjgyXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_FMjpg_UX1000_.jpg",
+  "categories": [
+    "636f8fc27ce5c77256e9cc15",
+    "6367c366ad77032663fec7c6",
+    "636f8fc27ce5c77256e9cc12"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac3"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f5108"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a9c"
+  },
+  "titol": "Notting Hill",
+  "director": "636e7fbcd6f369c6936a8af9",
+  "durada": 124,
+  "pegi": "PG-13",
+  "valoracio": 7.2,
+  "any": 1999,
+  "descripcio": "William (Hugh Grant), tranquilo propietario de una pequeña librería de viajes en el popular barrio londinense de Notting Hill, conoce un día por casualidad a la famosa Anna Scott (Julia Roberts), la estrella más rutilante del firmamento cinematográfico actual. Desde el momento en que la actriz entra en su tienda, la vida de William empezará a cambiar.",
+  "imatge": "https://flxt.tmsimg.com/assets/p22928_p_v12_bd.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac4",
+    "636e6760d6f369c6936a8ac6"
+  ],
+  "copies": [
+    "638206fbf35cd07e1a0f5109",
+    "638206fbf35cd07e1a0f510a",
+    "638206fbf35cd07e1a0f510b"
+  ]
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a9d"
+  },
+  "titol": "Pretty Woman",
+  "director": "636e7fbcd6f369c6936a8ae8",
+  "durada": 119,
+  "pegi": "R",
+  "valoracio": 7.1,
+  "any": 1990,
+  "descripcio": "Edward Lewis (Richard Gere), un apuesto y rico hombre de negocios, contrata a una prostituta, Vivian Ward (Julia Roberts), durante un viaje a Los Angeles. Tras pasar con ella la primera noche, Edward le ofrece dinero a Vivian para que pase con él toda la semana y le acompañe a diversos actos sociales. ",
+  "imatge": "https://m.media-amazon.com/images/I/612oWOnZ5LL._SY679_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7ce"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac4",
+    "636e6760d6f369c6936a8ac7"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a9e"
+  },
+  "titol": "Ocean's Eleven",
+  "director": "636e7fbcd6f369c6936a8ae3",
+  "durada": 116,
+  "pegi": "PG-13",
+  "valoracio": 7.7,
+  "any": 2001,
+  "descripcio": "Danny Ocean es un carismático ladrón que, tan sólo 24 horas después de cumplir una larga condena en prisión, ya está planeando su próximo delito. Su objetivo: realizar el mayor atraco de casinos de la historia. Para ello formará un equipo de once hombres, cada uno de ellos el mejor en su campo. Sin embargo surgirá un problema inesperado: el dueño de los locales, Terry Benedic, está saliendo con Tess, su exmujer. ",
+  "imatge": "https://m.media-amazon.com/images/I/91H+fqmPugL._RI_.jpg",
+  "categories": [
+    "636f8fc27ce5c77256e9cc15",
+    "636f8fc27ce5c77256e9cc12"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac4",
+    "636e6760d6f369c6936a8ac5"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8a9f"
+  },
+  "titol": "Love Actually",
+  "director": "636e7fbcd6f369c6936a8af8",
+  "durada": 129,
+  "pegi": "R",
+  "valoracio": 7.6,
+  "any": 2003,
+  "descripcio": "En Londres, poco antes de las Navidades, se entrelazan una serie de historias divertidas y conmovedoras. 'Love, Actually' es una manera abreviada de decir “Love Actually Is All Around” y éste es precisamente el argumento de la película: mires a donde mires, encontrarás el amor en todas partes. Todos los personajes, cada uno a su manera (un primer ministro, una vieja estrella del rock, una asistenta portuguesa que sólo habla su idioma), están relacionados con los aspectos más divertidos, tristes, ingenuos y estúpidos del amor.",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_FMjpg_UX1000_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac6"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa0"
+  },
+  "titol": "Bajo la misma estrella",
+  "director": "636e7fbcd6f369c6936a8aef",
+  "durada": 126,
+  "pegi": "PG-13",
+  "valoracio": 7.7,
+  "any": 2014,
+  "descripcio": "A pesar de que un milagro médico ha conseguido reducir su tumor y darle unos años más de vida, la adolescente Hazel (Shailene Woodley) siempre se ha considerado una enferma terminal. Sin embargo, cuando el joven Gus (Ansel Elgort) entra a formar parte del grupo de ayuda para enfermos de cáncer juvenil, la vida de Hazel se transforma por completo.",
+  "imatge": "https://es.web.img3.acsta.net/pictures/14/02/05/16/10/034641.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce",
+    "6367c366ad77032663fec7c6"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac8"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa1"
+  },
+  "titol": "Baby driver",
+  "director": "636e7fbcd6f369c6936a8ae7",
+  "durada": 115,
+  "pegi": "R",
+  "valoracio": 7.6,
+  "any": 2017,
+  "descripcio": "Baby (Ansel Elgort), un joven y talentoso conductor especializado en fugas, depende del ritmo de su banda sonora personal para ser el mejor en lo suyo. Cuando conoce a la chica de sus sueños (Lily James), Baby ve una oportunidad para abandonar su vida criminal y realizar una huida limpia. Pero después de ser forzado a trabajar para un jefe de una banda criminal (Kevin Spacey), deberá dar la cara cuando un golpe malogrado amenace su vida, su amor y su libertad.",
+  "imatge": "https://i.pinimg.com/736x/52/d3/77/52d37701282a55c60f62b02481272ee6.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c6",
+    "636f8fc27ce5c77256e9cc15",
+    "6367c366ad77032663fec7cb"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac8",
+    "636e6760d6f369c6936a8acb",
+    "636e6760d6f369c6936a8acc"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa2"
+  },
+  "titol": "Billionaire Boys Club",
+  "director": "636e7fbcd6f369c6936a8aeb",
+  "durada": 108,
+  "pegi": "R",
+  "valoracio": 5.6,
+  "any": 2018,
+  "descripcio": "Basada en hechos reales sigue la historia de Joe Hunt (Ansel Elgort) y Dean Karney (Taron Egerton) dos amigos, quienes convencieron a sus ex-compañeros de clase en Harvard para crear un fondo de inversiones llamado Club de Chicos Billonarios que les catapultaría a los escalones más altos de la sociedad de Los Ángeles en los años 80.",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BNDkwZTQzNDAtYjJkZS00MzA5LTliMzItNmRjYmFhOGY5YjFhXkEyXkFqcGdeQXVyODY2MzY0NDE@._V1_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "636f8fc27ce5c77256e9cc12",
+    "636f8fc27ce5c77256e9cc13"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac8",
+    "636e6760d6f369c6936a8ac9"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa3"
+  },
+  "titol": "Mamma Mia! Una y otra vez",
+  "director": "636e7fbcd6f369c6936a8af5",
+  "durada": 114,
+  "pegi": "PG-13",
+  "valoracio": 6.6,
+  "any": 2018,
+  "descripcio": "'Mamma Mia: Una y otra vez' nos lleva de viaje al verano donde comenzó todo. Desde su vida en el presente, los protagonistas de 'Mamma mia!'' nos cuentan los hechos acontecidos el mágico verano en el que comenzó esta historia de los tres posibles padres de Sophie.",
+  "imatge": "https://es.web.img3.acsta.net/pictures/18/05/08/12/55/3711486.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7ce",
+    "6367c366ad77032663fec7cc"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8abf",
+    "636e6760d6f369c6936a8aca",
+    "636e6760d6f369c6936a8acb",
+    "636e6760d6f369c6936a8ace"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa4"
+  },
+  "titol": "Mamma Mia!",
+  "director": "636e7fbcd6f369c6936a8af7",
+  "durada": 108,
+  "pegi": "PG-13",
+  "valoracio": 6.5,
+  "any": 2008,
+  "descripcio": "Versión cinematográfica del popular musical de ABBA. Una joven (Amanda Seyfried) que ha crecido en una pequeña isla griega, ha sido educada por una madre rebelde y poco convencional (Streep), que siempre se ha negado a revelarle la identidad de su padre. Cuando, por fin, parece que la joven está a punto de saberlo, aparecen tres posibles candidatos (Brosnan, Firth y Skarsgard).",
+  "imatge": "https://es.web.img3.acsta.net/medias/nmedia/18/66/74/18/20350628.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7ce",
+    "6367c366ad77032663fec7cc"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8abf",
+    "636e6760d6f369c6936a8ace"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa5"
+  },
+  "titol": "Annie",
+  "director": "636e7fbcd6f369c6936a8afd",
+  "durada": 118,
+  "pegi": "G",
+  "valoracio": 5.3,
+  "any": 2014,
+  "descripcio": "Annie es una niña huérfana que vive en una casa de acogida y que quiere encontrar a sus padres. Un día en su camino se cruza el millonario Sr. Stacks (Jamie Foxx), candidato a alcalde de Nueva York. Este encuentro cambiará para siempre sus vidas... Remake del musical 'Annie', adaptado a la época moderna.",
+  "imatge": "https://images.justwatch.com/poster/10118176/s332/annie-2014.%7Bformat%7D",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7cb",
+    "636f8fc27ce5c77256e9cc11"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac2",
+    "636e6760d6f369c6936a8acc",
+    "636e6760d6f369c6936a8acd"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa6"
+  },
+  "titol": "Insidious",
+  "director": "636e7fbcd6f369c6936a8aec",
+  "durada": 103,
+  "pegi": "PG-13",
+  "valoracio": 6.8,
+  "any": 2010,
+  "descripcio": "Josh (Patrick Wilson), su esposa Renai (Rose Byrne) y sus tres hijos acaban de mudarse a una vieja casa. Pero, tras un desgraciado accidente, uno de los niños entra en coma y, al mismo tiempo, empiezan a producirse en la casa extraños fenómenos que aterrorizan a la familia. ",
+  "imatge": "https://es.web.img3.acsta.net/pictures/14/05/07/09/01/306626.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c8",
+    "6367c366ad77032663fec7cd",
+    "636f8fc27ce5c77256e9cc12"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8acd",
+    "636e6760d6f369c6936a8ada",
+    "636e6760d6f369c6936a8ada"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa7"
+  },
+  "titol": "Lo imposible",
+  "director": "636e7fbcd6f369c6936a8ae6",
+  "durada": 114,
+  "pegi": "PG-13",
+  "valoracio": 7.5,
+  "any": 2012,
+  "descripcio": "Diciembre del año 2004. María (Naomi Watts), Henry (Ewan McGregor) y sus tres hijos pequeños vuelan desde Japón a Tailandia para pasar las vacaciones de Navidad en la playa. Una mañana, mientras se encuentran todos en la piscina del complejo a orillas del mar, un tremendo tsunami destroza el hotel y gran parte de la costa del sudeste asiático. Este desastre cambió para siempre la vida de millones de personas. Esta es sólo la historia de una familia.",
+  "imatge": "http://4.bp.blogspot.com/-t8CMMOcopFs/UHZxJO4s0MI/AAAAAAAAEQY/HMEzoLbQLmA/s1600/loimposibleposter.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7c7",
+    "636f8fc27ce5c77256e9cc16"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8acf",
+    "636e6760d6f369c6936a8ad3"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa8"
+  },
+  "titol": "Spider-Man: lejos de casa",
+  "director": "636e7fbcd6f369c6936a8aed",
+  "durada": 130,
+  "pegi": "PG-13",
+  "valoracio": 7.4,
+  "any": 2019,
+  "descripcio": "Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pasar unas vacaciones a Europa. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuando Nick Fury contacta con él para solicitarle ayuda para frenar el ataque de unas criaturas elementales que están causando el caos en el continente. En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+  "imatge": "https://es.web.img3.acsta.net/pictures/19/06/04/09/41/5108791.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c7",
+    "6367c366ad77032663fec7cf",
+    "6367c366ad77032663fec7c6"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8acf",
+    "636e6760d6f369c6936a8ad0",
+    "636e6760d6f369c6936a8ad2",
+    "636e6760d6f369c6936a8ad5"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aa9"
+  },
+  "titol": "En el corazón del mar",
+  "director": "636e7fbcd6f369c6936a8afb",
+  "durada": 121,
+  "pegi": "PG-13",
+  "valoracio": 6.9,
+  "any": 2015,
+  "descripcio": "En el invierno de 1820, Owen Chase (Hemsworth) y otros marineros de la tripulación del Essex sobrevivieron en alta mar en durísimas condiciones después de que el barco chocara con una enorme ballena blanca. Owen, obsesionado con la idea de dar caza al cetáceo, se enfrentó a las tormentas, al hambre y a la desesperación. Inspirada en la historia real en la que se basó Herman Melville para escribir el famoso relato 'Moby Dick'.",
+  "imatge": "https://as.com/ocio/imagenes/2015/12/04/cine/1449228453_035704_1449228659_noticia_normal.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c6",
+    "6367c366ad77032663fec7c7",
+    "636f8fc27ce5c77256e9cc13"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad0",
+    "636e6760d6f369c6936a8ad1"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aaa"
+  },
+  "titol": "Thor",
+  "director": "636e7fbcd6f369c6936a8af1",
+  "durada": 114,
+  "pegi": "PG-13",
+  "valoracio": 7,
+  "any": 2011,
+  "descripcio": "Thor es un arrogante y codicioso guerrero cuya imprudencia desata una antigua guerra. Por ese motivo, su padre Odín lo castiga desterrándolo a la Tierra para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Cuando el villano más peligroso de su mundo envía a la Tierra a las fuerzas más oscuras de Asgard, Thor se dará cuenta de lo que realmente hace falta para ser un verdadero héroe.",
+  "imatge": "https://www.ecured.cu/images/7/72/Thor_el_amrtillo.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c6",
+    "6367c366ad77032663fec7c7",
+    "6367c366ad77032663fec7cf"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad1",
+    "636e6760d6f369c6936a8ad2"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aab"
+  },
+  "titol": "Los Vengadores",
+  "director": "636e7fbcd6f369c6936a8af1",
+  "durada": 143,
+  "pegi": "PG-13",
+  "valoracio": 8,
+  "any": 2012,
+  "descripcio": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel 'Los Vengadores', el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
+  "imatge": "https://es.web.img3.acsta.net/pictures/14/03/10/10/35/587504.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c6",
+    "6367c366ad77032663fec7c7",
+    "6367c366ad77032663fec7cf"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad1",
+    "636e6760d6f369c6936a8ad2",
+    "636e6760d6f369c6936a8ad5",
+    "636e6760d6f369c6936a8ad8"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aac"
+  },
+  "titol": "Moulin Rouge!",
+  "director": "636e7fbcd6f369c6936a8afe",
+  "durada": 120,
+  "pegi": "PG-13",
+  "valoracio": 7.6,
+  "any": 2001,
+  "descripcio": "Ambientada en el París bohemio de 1900. Satine, la estrella más rutilante del Moulin Rouge, encandila a toda la ciudad con sus bailes llenos de sensualidad y su enorme belleza. Atrapada entre el amor de dos hombres, un joven escritor y un duque, lucha por hacer realidad su sueño de convertirse en actriz. Pero, en un mundo en el que todo vale, excepto enamorarse, nada es fácil.",
+  "imatge": "https://lasestrellas.com/wp-content/uploads/2018/04/molino.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cc",
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad3",
+    "636e6760d6f369c6936a8ad4"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aad"
+  },
+  "titol": "The Greatest Showman",
+  "director": "636e7fbcd6f369c6936a8af4",
+  "durada": 105,
+  "pegi": "PG",
+  "valoracio": 7.5,
+  "any": 2014,
+  "descripcio": "Biopic sobre Phineas Taylor Barnum (1810-1891), un empresario circense estadounidense que fundó el 'Ringling Bros. and Barnum & Bailey Circus', conocido como 'el mayor espectáculo en la tierra'.",
+  "imatge": "https://m.media-amazon.com/images/I/71YFVfJIr6L.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cc",
+    "6367c366ad77032663fec7cb",
+    "636f8fc27ce5c77256e9cc13"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad0",
+    "636e6760d6f369c6936a8ad6"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aae"
+  },
+  "titol": "Baywatch",
+  "director": "636e7fbcd6f369c6936a8afc",
+  "durada": 121,
+  "pegi": "PG",
+  "valoracio": 5.5,
+  "any": 2017,
+  "descripcio": "Adaptación al cine de la serie 'Los vigilantes de la playa'. Narra la historia del esforzado socorrista Mitch Buchannon (Johnson) y su choque de carácter con un bravucón socorrista novato (Efron). Juntos, descubren una trama delictiva local que amenaza el futuro de la Bahía.",
+  "imatge": "https://m.media-amazon.com/images/I/A13tucXoWlL._SL1500_.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7c6",
+    "636f8fc27ce5c77256e9cc15"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad6",
+    "636e6760d6f369c6936a8ad7"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8aaf"
+  },
+  "titol": "El lobo de Wall Street",
+  "director": "636e7fbcd6f369c6936a8af3",
+  "durada": 180,
+  "pegi": "R",
+  "valoracio": 8.2,
+  "any": 2013,
+  "descripcio": "Película basada en hechos reales del corredor de bolsa neoyorquino Jordan Belfort (Leonardo DiCaprio). A mediados de los años 80, Belfort era un joven honrado que perseguía el sueño americano, pero pronto en la agencia de valores aprendió que lo más importante no era hacer ganar a sus clientes, sino ser ambicioso y ganar una buena comisión. Su enorme éxito y fortuna le valió el mote de 'El lobo de Wall Street'. Dinero. Poder. Mujeres. Drogas. Las tentaciones abundaban y el temor a la ley era irrelevante. Jordan y su manada de lobos consideraban que la discreción era una cualidad anticuada; nunca se conformaban con lo que tenían.",
+  "imatge": "https://play-lh.googleusercontent.com/LNId0AK2hTWOY_3pnFRJ6w0BAsbbfJVcA7bsSWioCpwvoaaDq5YyiFxtJcFQnMmuPx9N-Q",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "636f8fc27ce5c77256e9cc13",
+    "636f8fc27ce5c77256e9cc15"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad8",
+    "636e6760d6f369c6936a8add"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8ab0"
+  },
+  "titol": "Asalto al poder",
+  "director": "636e7fbcd6f369c6936a8afa",
+  "durada": 137,
+  "pegi": "PG-13",
+  "valoracio": 6.3,
+  "any": 2013,
+  "descripcio": "John Cale (Channing Tatum), un policía del Capitolio, ve rechazada su petición de entrar en el Servicio Secreto para proteger al Presidente de los Estados Unidos (Jamie Foxx). Un día lleva a su hija a hacer un tour por la Casa Blanca, momento en el que un comando paramilitar fuertemente armado asalta el edificio. Con el Gobierno de la nación sumido en el caos, Cale intentará salvar al Presidente, a su hija y al país.",
+  "imatge": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2013/6/w1280/twMYX72vkQl3dzVrXE8Ja7dUqcC.jpg",
+  "categories": [
+    "6367c366ad77032663fec7cb",
+    "636f8fc27ce5c77256e9cc12",
+    "6367c366ad77032663fec7c6"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ac0",
+    "636e6760d6f369c6936a8acc",
+    "636e6760d6f369c6936a8ad9"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8ab1"
+  },
+  "titol": "Expediente Warren: The conjuring",
+  "director": "636e7fbcd6f369c6936a8aec",
+  "durada": 112,
+  "pegi": "R",
+  "valoracio": 7.5,
+  "any": 2013,
+  "descripcio": "Basada en una historia real documentada por los reputados demonólogos Ed y Lorraine Warren. Narra los encuentros sobrenaturales que vivió la familia Perron en su casa de Rhode Island a principios de los 70. El matrimonio Warren, investigadores de renombre en el mundo de los fenómenos paranormales, acudieron a la llamada de esta familia aterrorizada por la presencia en su granja de un ser maligno.",
+  "imatge": "https://es.web.img2.acsta.net/pictures/210/143/21014358_20130621122328102.jpg",
+  "categories": [
+    "6367c366ad77032663fec7c8",
+    "6367c366ad77032663fec7cd",
+    "636f8fc27ce5c77256e9cc12"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad9",
+    "636e6760d6f369c6936a8ada"
+  ],
+  "copies": []
+},{
+  "_id": {
+    "$oid": "636e4427d6f369c6936a8ab2"
+  },
+  "titol": "Crazy, Stupid, Love",
+  "director": "636e7fbcd6f369c6936a8ae9",
+  "durada": 118,
+  "pegi": "PG-13",
+  "valoracio": 7.4,
+  "any": 2011,
+  "descripcio": "Cal Weaver (Steve Carell), cuarentón y puritano, tiene una vida perfecta: un buen trabajo, una bonita casa, unos hijos estupendos y está casado con su novia de la adolescencia. Sin embargo, cuando se entera de que su esposa (Julianne Moore) lo ha traicionado y quiere el divorcio, su vida se desmorona.",
+  "imatge": "https://cdn.sincroguia.tv/uploads/programs/c/r/a/crazy-stupid-love-poster-211002_SPA-38_V.jpg",
+  "categories": [
+    "6367c366ad77032663fec7ca",
+    "6367c366ad77032663fec7cb",
+    "6367c366ad77032663fec7ce"
+  ],
+  "actors": [
+    "636e6760d6f369c6936a8ad9",
+    "636e6760d6f369c6936a8adb",
+    "636e6760d6f369c6936a8adc"
+  ],
+  "copies": []
+}]
