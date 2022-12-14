@@ -13,6 +13,7 @@
     }
     $pelicula = "";
     $pelicula = $peliculesdb->find();
+
 ?>
 
 <!DOCTYPE html>

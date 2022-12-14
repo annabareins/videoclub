@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2015-2017 MongoDB, Inc.
+ * Copyright 2015-present MongoDB, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,6 +21,7 @@ use MongoDB\Driver\Exception\RuntimeException as DriverRuntimeException;
 use MongoDB\Driver\Server;
 use MongoDB\Exception\InvalidArgumentException;
 use MongoDB\Exception\UnsupportedException;
+
 use function is_array;
 use function is_integer;
 use function is_object;
@@ -36,8 +37,8 @@ use function MongoDB\is_pipeline;
  */
 class FindOneAndUpdate implements Executable, Explainable
 {
-    const RETURN_DOCUMENT_BEFORE = 1;
-    const RETURN_DOCUMENT_AFTER = 2;
+    public const RETURN_DOCUMENT_BEFORE = 1;
+    public const RETURN_DOCUMENT_AFTER = 2;
 
     /** @var FindAndModify */
     private $findAndModify;
@@ -53,13 +54,7 @@ class FindOneAndUpdate implements Executable, Explainable
      *  * bypassDocumentValidation (boolean): If true, allows the write to
      *    circumvent document level validation.
      *
-     *    For servers < 3.2, this option is ignored as document level validation
-     *    is not available.
-     *
      *  * collation (document): Collation specification.
-     *
-     *    This is not supported for server versions < 3.4 and will result in an
-     *    exception at execution time if used.
      *
      *  * hint (string|document): The index to use. Specify either the index
      *    name as a string or the index key pattern as a document. If specified,
@@ -82,8 +77,6 @@ class FindOneAndUpdate implements Executable, Explainable
      *
      *  * session (MongoDB\Driver\Session): Client session.
      *
-     *    Sessions are not supported for server versions < 3.6.
-     *
      *  * sort (document): Determines which document the operation modifies if
      *    the query selects multiple documents.
      *
@@ -93,9 +86,6 @@ class FindOneAndUpdate implements Executable, Explainable
      *    matches the query. The default is false.
      *
      *  * writeConcern (MongoDB\Driver\WriteConcern): Write concern.
-     *
-     *    This is not supported for server versions < 3.2 and will result in an
-     *    exception at execution time if used.
      *
      * @param string       $databaseName   Database name
      * @param string       $collectionName Collection name
@@ -131,8 +121,10 @@ class FindOneAndUpdate implements Executable, Explainable
             throw InvalidArgumentException::invalidType('"returnDocument" option', $options['returnDocument'], 'integer');
         }
 
-        if ($options['returnDocument'] !== self::RETURN_DOCUMENT_AFTER &&
-            $options['returnDocument'] !== self::RETURN_DOCUMENT_BEFORE) {
+        if (
+            $options['returnDocument'] !== self::RETURN_DOCUMENT_AFTER &&
+            $options['returnDocument'] !== self::RETURN_DOCUMENT_BEFORE
+        ) {
             throw new InvalidArgumentException('Invalid value for "returnDocument" option: ' . $options['returnDocument']);
         }
 
@@ -165,6 +157,13 @@ class FindOneAndUpdate implements Executable, Explainable
         return $this->findAndModify->execute($server);
     }
 
+    /**
+     * Returns the command document for this operation.
+     *
+     * @see Explainable::getCommandDocument()
+     * @param Server $server
+     * @return array
+     */
     public function getCommandDocument(Server $server)
     {
         return $this->findAndModify->getCommandDocument($server);

@@ -1,5 +1,5 @@
 <?php
-
+    error_reporting(E_ERROR | E_PARSE);
     require_once __DIR__ . '/vendor/autoload.php';
     $categoriesdb = (new MongoDB\Client)->videoclub->categoria;
     $actorsdb = (new MongoDB\Client)->videoclub->actor;

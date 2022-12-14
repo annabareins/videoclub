@@ -1,250 +1,250 @@
 [{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8ae3"
-    },
-    "nom": "Steven Spielberg",
-    "imatge": "https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a92",
-      "636e4427d6f369c6936a8a9e",
-      "636e4427d6f369c6936a8a96",
-      "636e4427d6f369c6936a8a97",
-      "636e4427d6f369c6936a8a98"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8ae4"
-    },
-    "nom": "Quentin Tarantino",
-    "imatge": "https://cdn-3.expansion.mx/dims4/default/cc1c7a6/2147483647/strip/true/crop/1000x1500+0+0/resize/1800x2700!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff9%2Fce%2F28d85bcf42f48660bae437a3e21a%2Fquentin-tarantino.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a9a",
-      "636e4427d6f369c6936a8a9b"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8ae6"
-    },
-    "nom": "Juan Antonio Bayona",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BMTg2MTU2ODUzOF5BMl5BanBnXkFtZTcwOTI5NjU3OA@@._V1_.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa7"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8ae7"
-    },
-    "nom": "Edgar Wright",
-    "imatge": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/edgar-wright-sitges-2022-1665992523.png",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa1"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8ae8"
-    },
-    "nom": "Garry Marshall",
-    "imatge": "https://s.abcnews.com/images/Entertainment/ap_garry_marshall_ps_160719_4x5_992.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a9d"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8ae9"
-    },
-    "nom": "Glenn Ficarra",
-    "imatge": "https://elfinalde.s3-accelerate.amazonaws.com/2016/02/nYiriOot9jZihyuhH7utfTh7vtH.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8ab2"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8aea"
-    },
-    "nom": "Gregory Jacobs",
-    "imatge": "https://elfinalde.s3-accelerate.amazonaws.com/2016/12/8kzQe6LVlByPillPuqPfWpTmKd6.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a95"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8aeb"
-    },
-    "nom": "James Cox",
-    "imatge": "https://elfinalde.s3-accelerate.amazonaws.com/2016/12/fy5dBdSTjasTllcUU1yUIFZYpHC.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa2"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8aec"
-    },
-    "nom": "James Wan",
-    "imatge": "https://images.mubicdn.net/images/cast_member/23706/cache-6013-1614176827/image-w856.jpg?size=800x",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa6",
-      "636e4427d6f369c6936a8ab1"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8aed"
-    },
-    "nom": "Jon Watts",
-    "imatge": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/e/eb/Jon_Watts.png/revision/latest?cb=20200404194904&path-prefix=es",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa8"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8aee"
-    },
-    "nom": "Joseph McGinty Nichol",
-    "imatge": "https://assets.mycast.io/actor_images/actor-joseph-mcginty-nichol-59151_large.jpg?1583735727",
-    "pelicules": [
-      "636e4427d6f369c6936a8a94"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8aef"
-    },
-    "nom": "Josh Boone",
-    "imatge": "https://images.mubicdn.net/images/cast_member/375512/cache-169049-1610831875/image-w856.jpg?size=800x",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa0"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af0"
-    },
-    "nom": "Joss Whedon",
-    "imatge": "https://es.web.img3.acsta.net/pictures/14/08/06/11/56/027283.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aab"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af1"
-    },
-    "nom": "Kenneth Branagh",
-    "imatge": "https://images.mubicdn.net/images/cast_member/12869/cache-1537-1608914704/image-w856.jpg?size=800x",
-    "pelicules": [
-      "636e4427d6f369c6936a8aaa"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af2"
-    },
-    "nom": "Lasse Hallström",
-    "imatge": "https://es.web.img3.acsta.net/medias/nmedia/18/35/24/93/20507033.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a93"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af3"
-    },
-    "nom": "Martin Scorsese",
-    "imatge": "https://es.web.img3.acsta.net/pictures/15/10/19/09/54/276049.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aaf"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af4"
-    },
-    "nom": "Michael Gracey",
-    "imatge": "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p697200/MichaeGracey-2017.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aad"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af5"
-    },
-    "nom": "Ol Parker",
-    "imatge": "https://es.web.img2.acsta.net/pictures/17/09/22/17/06/4317497.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa3"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af6"
-    },
-    "nom": "Paul John Hogan",
-    "imatge": "https://image.tmdb.org/t/p/original/a9nTCDzLrnrEgD81WiRvZ4zN1VX.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a99"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af7"
-    },
-    "nom": "Phyllida Lloyd",
-    "imatge": "https://www.themoviedb.org/t/p/w500/1uY3e0Mo2K2PYZIlW6dKtPrXKyo.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa4"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af8"
-    },
-    "nom": "Richard Curtis",
-    "imatge": "https://m.media-amazon.com/images/M/MV5BMTMzNzAxMTM3N15BMl5BanBnXkFtZTcwOTAzODQyNw@@._V1_.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a9f"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8af9"
-    },
-    "nom": "Roger Michell",
-    "imatge": "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2021/09/23/614cb87d9dbd6.jpeg",
-    "pelicules": [
-      "636e4427d6f369c6936a8a9c"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8afa"
-    },
-    "nom": "Roland Emmerich",
-    "imatge": "https://es.web.img2.acsta.net/pictures/18/08/09/11/09/0942708.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8ab0"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8afb"
-    },
-    "nom": "Ron Howard",
-    "imatge": "https://flxt.tmsimg.com/assets/803_v9_bb.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa9"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8afc"
-    },
-    "nom": "Seth Gordon",
-    "imatge": "https://www.lavanguardia.com/peliculas-series/images/profile/1974/7/w300/3V2gHFkbez8iGTdlYyS9NxMujfw.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aae"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8afd"
-    },
-    "nom": "Will Gluck",
-    "imatge": "https://www.themoviedb.org/t/p/w500/facxxJZFpnoufJIY4jU9mC7RGKx.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aa5"
-    ]
-  },{
-    "_id": {
-      "$oid": "636e7fbcd6f369c6936a8afe"
-    },
-    "nom": "Baz Luhrmann",
-    "imatge": "https://resizing.flixster.com/xJF93atKRxRHDLErGE3FUh3XJe8=/218x280/v2/https://flxt.tmsimg.com/assets/7386_v9_bb.jpg",
-    "pelicules": [
-      "636e4427d6f369c6936a8aac"
-    ]
-  }]
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8ae3"
+  },
+  "nom": "Steven Spielberg",
+  "imatge": "https://upload.wikimedia.org/wikipedia/commons/6/67/Steven_Spielberg_by_Gage_Skidmore.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a92",
+    "636e4427d6f369c6936a8a9e",
+    "636e4427d6f369c6936a8a96",
+    "636e4427d6f369c6936a8a97",
+    "636e4427d6f369c6936a8a98"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8ae4"
+  },
+  "nom": "Quentin Tarantino",
+  "imatge": "https://cdn-3.expansion.mx/dims4/default/cc1c7a6/2147483647/strip/true/crop/1000x1500+0+0/resize/1800x2700!/format/webp/quality/90/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Ff9%2Fce%2F28d85bcf42f48660bae437a3e21a%2Fquentin-tarantino.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9a",
+    "636e4427d6f369c6936a8a9b"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8ae6"
+  },
+  "nom": "Juan Antonio Bayona",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BMTg2MTU2ODUzOF5BMl5BanBnXkFtZTcwOTI5NjU3OA@@._V1_.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa7"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8ae7"
+  },
+  "nom": "Edgar Wright",
+  "imatge": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/edgar-wright-sitges-2022-1665992523.png",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa1"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8ae8"
+  },
+  "nom": "Garry Marshall",
+  "imatge": "https://s.abcnews.com/images/Entertainment/ap_garry_marshall_ps_160719_4x5_992.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9d"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8ae9"
+  },
+  "nom": "Glenn Ficarra",
+  "imatge": "https://elfinalde.s3-accelerate.amazonaws.com/2016/02/nYiriOot9jZihyuhH7utfTh7vtH.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8ab2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8aea"
+  },
+  "nom": "Gregory Jacobs",
+  "imatge": "https://elfinalde.s3-accelerate.amazonaws.com/2016/12/8kzQe6LVlByPillPuqPfWpTmKd6.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a95"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8aeb"
+  },
+  "nom": "James Cox",
+  "imatge": "https://elfinalde.s3-accelerate.amazonaws.com/2016/12/fy5dBdSTjasTllcUU1yUIFZYpHC.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa2"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8aec"
+  },
+  "nom": "James Wan",
+  "imatge": "https://images.mubicdn.net/images/cast_member/23706/cache-6013-1614176827/image-w856.jpg?size=800x",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa6",
+    "636e4427d6f369c6936a8ab1"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8aed"
+  },
+  "nom": "Jon Watts",
+  "imatge": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/e/eb/Jon_Watts.png/revision/latest?cb=20200404194904&path-prefix=es",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa8"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8aee"
+  },
+  "nom": "Joseph McGinty Nichol",
+  "imatge": "https://assets.mycast.io/actor_images/actor-joseph-mcginty-nichol-59151_large.jpg?1583735727",
+  "pelicules": [
+    "636e4427d6f369c6936a8a94"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8aef"
+  },
+  "nom": "Josh Boone",
+  "imatge": "https://images.mubicdn.net/images/cast_member/375512/cache-169049-1610831875/image-w856.jpg?size=800x",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa0"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af0"
+  },
+  "nom": "Joss Whedon",
+  "imatge": "https://es.web.img3.acsta.net/pictures/14/08/06/11/56/027283.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aab"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af1"
+  },
+  "nom": "Kenneth Branagh",
+  "imatge": "https://images.mubicdn.net/images/cast_member/12869/cache-1537-1608914704/image-w856.jpg?size=800x",
+  "pelicules": [
+    "636e4427d6f369c6936a8aaa"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af2"
+  },
+  "nom": "Lasse Hallström",
+  "imatge": "https://es.web.img3.acsta.net/medias/nmedia/18/35/24/93/20507033.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a93"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af3"
+  },
+  "nom": "Martin Scorsese",
+  "imatge": "https://es.web.img3.acsta.net/pictures/15/10/19/09/54/276049.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aaf"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af4"
+  },
+  "nom": "Michael Gracey",
+  "imatge": "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p697200/MichaeGracey-2017.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aad"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af5"
+  },
+  "nom": "Ol Parker",
+  "imatge": "https://es.web.img2.acsta.net/pictures/17/09/22/17/06/4317497.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa3"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af6"
+  },
+  "nom": "Paul John Hogan",
+  "imatge": "https://image.tmdb.org/t/p/original/a9nTCDzLrnrEgD81WiRvZ4zN1VX.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a99"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af7"
+  },
+  "nom": "Phyllida Lloyd",
+  "imatge": "https://www.themoviedb.org/t/p/w500/1uY3e0Mo2K2PYZIlW6dKtPrXKyo.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa4"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af8"
+  },
+  "nom": "Richard Curtis",
+  "imatge": "https://m.media-amazon.com/images/M/MV5BMTMzNzAxMTM3N15BMl5BanBnXkFtZTcwOTAzODQyNw@@._V1_.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9f"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8af9"
+  },
+  "nom": "Roger Michell",
+  "imatge": "https://www.lavanguardia.com/files/content_image_mobile_filter/uploads/2021/09/23/614cb87d9dbd6.jpeg",
+  "pelicules": [
+    "636e4427d6f369c6936a8a9c"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8afa"
+  },
+  "nom": "Roland Emmerich",
+  "imatge": "https://es.web.img2.acsta.net/pictures/18/08/09/11/09/0942708.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8ab0"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8afb"
+  },
+  "nom": "Ron Howard",
+  "imatge": "https://flxt.tmsimg.com/assets/803_v9_bb.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa9"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8afc"
+  },
+  "nom": "Seth Gordon",
+  "imatge": "https://www.lavanguardia.com/peliculas-series/images/profile/1974/7/w300/3V2gHFkbez8iGTdlYyS9NxMujfw.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aae"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8afd"
+  },
+  "nom": "Will Gluck",
+  "imatge": "https://www.themoviedb.org/t/p/w500/facxxJZFpnoufJIY4jU9mC7RGKx.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aa5"
+  ]
+},{
+  "_id": {
+    "$oid": "636e7fbcd6f369c6936a8afe"
+  },
+  "nom": "Baz Luhrmann",
+  "imatge": "https://resizing.flixster.com/xJF93atKRxRHDLErGE3FUh3XJe8=/218x280/v2/https://flxt.tmsimg.com/assets/7386_v9_bb.jpg",
+  "pelicules": [
+    "636e4427d6f369c6936a8aac"
+  ]
+}]
