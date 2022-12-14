@@ -42,19 +42,19 @@
 <body>
     <div class="contenidor">
         <?php require("menu.php"); ?>
-        <div>
-            <div style="display: flex; justify-content: center; align-items: center"> INSEREIX NOVA PELI </div>
+        <div class="send" style="margin: auto; overflow-x: hidden; overflow-y: scroll; height: 90%">
             <form>
                 <ul>
                     <li>
-                        <label for="titolPelicula">Titol Pel·licula</label>
-                        <input type="text" id="titolPelicula" name="titolPelicula" />
+                        <label class="label" for="titolPelicula">Titol Pel·licula</label>
+                        <br>
+                        <input class="rounded-input" type="text" id="titolPelicula" name="titolPelicula" />
                     </li>
                     <li>
                         <i aria-hidden="true" title="Director Pel·licula"></i>
                         <label> Director de la Pel·licula </label>
                         <div class="desp_cat">
-                            <select id="directorPelicula">
+                            <select style="padding: 5px 0" id="directorPelicula">
                                 <?php foreach ($directors as $d)
                                     echo "<option value='" .$d[0]. "'>" .$d[1]."</option>";
                                 ?>
@@ -66,16 +66,16 @@
                         <label> Actor/s de la Pel·licula </label>
                         <div class="multiSelect">
                             <div class="selectBox" onclick="showCheckboxes()">
-                                <select>
+                                <select style="padding: 5px 0">
                                     <option>Selecciona els Actors de la Pel·licula</option>
                                 </select>
                                 <div class="overSelect"></div>
                             </div>
                             <div id="checkboxes">
                                 <?php foreach ($actors as $a) {
-                                    echo "<label> 
+                                    echo "<p> 
                                         <input type='checkbox' class='actorsPelicula' onchange='getValue(this.value)' value='$a[0]'>
-                                        " . $a[1] . "</label>";
+                                        " . $a[1] . "</p>";
                                 }
                                 ?>
                             </div>
@@ -86,16 +86,16 @@
                         <label> Actor/s de la Pel·licula </label>
                         <div class="multiSelect">
                             <div class="selectBox" onclick="showCheckboxesCategories()">
-                                <select>
+                                <select style="padding: 5px 0">
                                     <option>Selecciona les Categories de la Pel·licula</option>
                                 </select>
                                 <div class="overSelect"></div>
                             </div>
                             <div id="checkboxesCategories">
                                 <?php foreach ($categories as $c) {
-                                    echo "<label> 
+                                    echo "<p> 
                                         <input type='checkbox' class='actorsPelicula' onchange='getValueCategories(this.value)' value='$c[0]'>
-                                        " . $c[2] . "</label>";
+                                        " . $c[2] . "</p>";
                                 }
                                 ?>
                             </div>
@@ -103,32 +103,38 @@
                     </li>
                     <li>
                         <label for="duradaPelicula">Durada Pel·licula</label>
-                        <input type="text" id="duradaPelicula" name="duradaPelicula" />
+                        <br>
+                        <input class="rounded-input" type="number" id="duradaPelicula" name="duradaPelicula" />
                     </li>
                     <li>
                         <label for="PEGI">PEGI</label>
-                        <input type="text" id="PEGI" name="PEGI" />
+                        <br>
+                        <input class="rounded-input" type="text" id="PEGI" name="PEGI" />
                     </li>
                     <li>
                         <label for="valoracioPelicula">Valoracio Pel·licula</label>
-                        <input type="number" id="valoracioPelicula" name="valoracioPelicula" />
+                        <br>
+                        <input class="rounded-input" type="number" id="valoracioPelicula" name="valoracioPelicula" />
                     </li>
                     <li>
                         <label for="anyPelicula">Any Pel·licula</label>
-                        <input type="number" id="anyPelicula" name="anyPelicula" />
+                        <br>
+                        <input class="rounded-input" type="number" id="anyPelicula" name="anyPelicula" />
                     </li>
                     <li>
                         <label for="descripcioPelicula">Descripcio Pel·licula</label>
-                        <input type="text" id="descripcioPelicula" name="descripcioPelicula" />
+                        <br>
+                        <input class="rounded-input" type="text" id="descripcioPelicula" name="descripcioPelicula" />
                     </li>
                     <li>
                         <label for="imatgePelicula">Imatge Pel·licula</label>
-                        <input type="file" id="imatgePelicula" name="imatgePelicula" />
+                        <br>
+                        <input type="text" class="rounded-input" id="imatgePelicula" name="imatgePelicula" />
                     </li>
                 </ul>
             </form>
             <div class="botoCreateMovie">
-                <button id="createMovie" onclick="createMovie()">Inserir pel·licula</button>
+                <button id="createMovie" style="margin-left:30px; padding: 10px 50px 10px 50px;background-color: green; color: #FFFFFF;" onclick="createMovie()">Inserir pel·licula</button>
             </div>
         </div>
     </div>
@@ -233,7 +239,7 @@
     }
 
     .selectBox select {
-        width: 100%;
+        width: 50%;
         font-weight: bold;
     }
 
@@ -269,4 +275,19 @@
     #checkboxesCategories label:hover {
         background-color: #1e90ff;
     }
+
+    .rounded-input {
+        padding:10px;
+        border-radius:10px;
+    }
+    label {
+        font-size: 1.5em;
+    }
+    .send {
+        width: 750px;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: 0;
+    }
+
 </style>

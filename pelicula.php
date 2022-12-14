@@ -332,7 +332,7 @@
         const nombreCopies = document.getElementById("nombreCopies").value;
         FD.append("idPelicula",idPelicula);
         FD.append("nombreCopies", nombreCopies);
-        if (nombreCopies > 0) {
+        if (nombreCopies <= 0) {
             alert('HAS D\'AFEGIR COPIES PER PODER SEGUIR');
             return;
         }
