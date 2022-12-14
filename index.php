@@ -7,7 +7,7 @@ if($peliculesdb->count()>0){
     $sql_pelicules = $peliculesdb->find();
     foreach ($sql_pelicules as $p){
         $aux = [];
-        array_push($aux, $p["id"], $p["titol"], $p["imatge"], $p["valoracio"], $p["pegi"], $p["any"]);
+        array_push($aux, $p["_id"], $p["titol"], $p["imatge"], $p["valoracio"], $p["pegi"], $p["any"]);
         array_push($pelicules, $aux);
     }
 }

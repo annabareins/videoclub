@@ -83,7 +83,7 @@
                     </li>
                     <li>
                         <i aria-hidden="true" title="Actor/s Pel·licula"></i>
-                        <label> Actor/s de la Pel·licula </label>
+                        <label> Categories de la Pel·licula </label>
                         <div class="multiSelect">
                             <div class="selectBox" onclick="showCheckboxesCategories()">
                                 <select style="padding: 5px 0">
@@ -286,7 +286,7 @@
     .send {
         width: 750px;
         padding: 10px;
-        border: 5px solid gray;
+        border: 1px solid black;
         margin: 0;
     }
 

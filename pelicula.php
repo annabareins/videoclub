@@ -176,7 +176,7 @@
         text-align: center;
         margin-left: 0.5rem;
         margin-right: 0.5rem;
-        padding: 1rem;
+        padding: 0.10em;
     }
 
     .plus-minus-input .input-group-field::-webkit-inner-spin-button,
@@ -187,7 +187,7 @@
 
     .plus-minus-input .input-group-button .circle {
         border-radius: 50%;
-        padding: 0.25em 0.8em;
+        padding: 0.25em 0.50em;
     }
 
 
@@ -225,7 +225,6 @@
                     </div>
                     <div class="reserva">
                         <button class="botoreserva" id="reserva">RESERVAR</button>
-                        <button class="botoreserva botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
                         <p class="error_message" style="color: red"></p>
                         <div class="input-group plus-minus-input">
                             <div class="input-group-button">
@@ -240,7 +239,8 @@
                                 </button>
                             </div>
                         </div>
-                        <button class="botoreserva" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIES</button>
+                        <button style="margin-bottom: 10px" class="botoreserva" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIES</button>
+                        <button class="botoreserva botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
                     </div>
 
                 </div>
