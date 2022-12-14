@@ -208,7 +208,7 @@
 
         $(".seleccionable").change(function () {
             if(this.value != ""){
-                document.getElementById("imatge").style.display = "flex";
+                document.getElementById("F").style.display = "flex";
                 document.getElementById("estat").style.display = "flex";
                 document.getElementById("peliculaEstat").style.display = "block";
                 document.getElementById("peliculaImatge").style.display = "block";

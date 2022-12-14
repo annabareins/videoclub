@@ -7,7 +7,6 @@
     if($peliculesdb->count()>0){
         $pelicula = $peliculesdb->findOne(['_id' => new MongoDB\BSON\ObjectId($id)]);
     }
-
     //CATEGORIES
     //Llistem les ids de les categories
     $categoriesids = [];
@@ -127,7 +126,7 @@
         text-align: left;
     }
     .reserva {
-        width: 30%;
+        width:30%;
     }
     .botoreserva{
         background: #74818E;
@@ -167,6 +166,32 @@
         border-radius: 50%;
     }
 
+    .plus-minus-input {
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .plus-minus-input .input-group-field {
+        text-align: center;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 1rem;
+    }
+
+    .plus-minus-input .input-group-field::-webkit-inner-spin-button,
+    .plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+
+    .plus-minus-input .input-group-button .circle {
+        border-radius: 50%;
+        padding: 0.25em 0.8em;
+    }
+
+
+
 
 </style>
 <body>
@@ -202,6 +227,20 @@
                         <button class="botoreserva" id="reserva">RESERVAR</button>
                         <button class="botoreserva botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
                         <p class="error_message" style="color: red"></p>
+                        <div class="input-group plus-minus-input">
+                            <div class="input-group-button">
+                                <button type="button" class="button hollow circle" data-quantity="minus" data-field="quantity">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <input class="input-group-field" type="number" id="nombreCopies" name="quantity" value="0">
+                            <div class="input-group-button">
+                                <button type="button" class="button hollow circle" data-quantity="plus" data-field="quantity">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <button class="botoreserva" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIES</button>
                     </div>
 
                 </div>
@@ -228,6 +267,44 @@
         });
     });
 
+    jQuery(document).ready(function(){
+        // This button will increment the value
+        $('[data-quantity="plus"]').click(function(e){
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            fieldName = $(this).attr('data-field');
+            // Get its current value
+            var currentVal = parseInt($('input[name='+fieldName+']').val());
+            // If is not undefined
+            if (!isNaN(currentVal)) {
+                // Increment
+                $('input[name='+fieldName+']').val(currentVal + 1);
+            } else {
+                // Otherwise put a 0 there
+                $('input[name='+fieldName+']').val(0);
+            }
+        });
+        // This button will decrement the value till 0
+        $('[data-quantity="minus"]').click(function(e) {
+            // Stop acting like a button
+            e.preventDefault();
+            // Get the field name
+            fieldName = $(this).attr('data-field');
+            // Get its current value
+            var currentVal = parseInt($('input[name='+fieldName+']').val());
+            // If it isn't undefined or its greater than 0
+            if (!isNaN(currentVal) && currentVal > 0) {
+                // Decrement one
+                $('input[name='+fieldName+']').val(currentVal - 1);
+            } else {
+                // Otherwise put a 0 there
+                $('input[name='+fieldName+']').val(0);
+            }
+        });
+    });
+
+
     function deleteElement(id) {
         var FD = new FormData();
         FD.append("idPelicula", id);
@@ -253,6 +330,37 @@
                        else{
                            window.location.href = "pelicules.php";
                        }
+                    }
+                })
+            }
+        })
+    }
+    function afegirCopia(idPelicula) {
+        let FD = new FormData();
+        const nombreCopies = document.getElementById("nombreCopies").value;
+        FD.append("idPelicula",idPelicula);
+        FD.append("nombreCopies", nombreCopies);
+        if (nombreCopies <= 0) {
+            alert('HAS D\'AFEGIR COPIES PER PODER SEGUIR');
+            return;
+        }
+        Swal.fire({
+            icon: 'warning',
+            title: 'Eps!',
+            text: 'Estas segur que vols afegir les copies a aquesta pelicula?',
+            showDenyButton: true,
+            confirmButtonText: 'Si',
+            denyButtonText: 'No',
+        }).then((result)=>{
+            if(result.isConfirmed){
+                $.ajax({
+                    type: "POST",
+                    url: "ajaxAfegirCopia.php",
+                    data: FD,
+                    processData: false,
+                    contentType: false,
+                    success : function(data){
+                        window.location.href = "pelicules.php";
                     }
                 })
             }

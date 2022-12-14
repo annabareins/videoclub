@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2017 MongoDB, Inc.
+ * Copyright 2017-present MongoDB, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,6 +32,7 @@ use MongoDB\Exception\InvalidArgumentException;
 use MongoDB\Exception\UnexpectedValueException;
 use MongoDB\Exception\UnsupportedException;
 use MongoDB\Model\ChangeStreamIterator;
+
 use function array_intersect_key;
 use function array_unshift;
 use function count;
@@ -55,8 +56,8 @@ use function MongoDB\server_supports_feature;
  */
 class Watch implements Executable, /* @internal */ CommandSubscriber
 {
-    const FULL_DOCUMENT_DEFAULT = 'default';
-    const FULL_DOCUMENT_UPDATE_LOOKUP = 'updateLookup';
+    public const FULL_DOCUMENT_DEFAULT = 'default';
+    public const FULL_DOCUMENT_UPDATE_LOOKUP = 'updateLookup';
 
     /** @var integer */
     private static $wireVersionForStartAtOperationTime = 7;
@@ -130,8 +131,6 @@ class Watch implements Executable, /* @internal */ CommandSubscriber
      *    mutually exclusive.
      *
      *  * session (MongoDB\Driver\Session): Client session.
-     *
-     *    Sessions are not supported for server versions < 3.6.
      *
      *  * startAfter (document): Specifies the logical starting point for the
      *    new change stream. Unlike "resumeAfter", this option can be used with
@@ -264,8 +263,10 @@ class Watch implements Executable, /* @internal */ CommandSubscriber
             $this->postBatchResumeToken = $reply->cursor->postBatchResumeToken;
         }
 
-        if ($this->shouldCaptureOperationTime($event->getServer()) &&
-            isset($reply->operationTime) && $reply->operationTime instanceof TimestampInterface) {
+        if (
+            $this->shouldCaptureOperationTime($event->getServer()) &&
+            isset($reply->operationTime) && $reply->operationTime instanceof TimestampInterface
+        ) {
             $this->operationTime = $reply->operationTime;
         }
     }
@@ -419,9 +420,11 @@ class Watch implements Executable, /* @internal */ CommandSubscriber
             return false;
         }
 
-        if (isset($this->changeStreamOptions['resumeAfter']) ||
+        if (
+            isset($this->changeStreamOptions['resumeAfter']) ||
             isset($this->changeStreamOptions['startAfter']) ||
-            isset($this->changeStreamOptions['startAtOperationTime'])) {
+            isset($this->changeStreamOptions['startAtOperationTime'])
+        ) {
             return false;
         }
 
