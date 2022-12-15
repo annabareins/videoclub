@@ -240,6 +240,7 @@
                         </div>
                         <button style="margin-bottom: 10px" class="botocopies" id="afegirCopia" onclick="afegirCopia('<?php echo $id ?>')">AFEGIR COPIES</button>
                         <button class="botoborrar" id="reserva" onclick="deleteElement('<?php echo $id ?>')">BORRAR</button>
+                        <p class="error_message" style="color: red;"><p>
                     </div>
 
                 </div>
